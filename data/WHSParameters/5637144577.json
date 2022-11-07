@@ -319,7 +319,7 @@
         "Name": "UCCCompanyPrefix",
         "Id": 52,
         "Type": "string",
-        "Value": ""
+        "Value": "GS1"
       },
       {
         "Name": "UnregisterAtWorkCancel",
@@ -683,7 +683,7 @@
         "Name": "modifiedDateTime",
         "Id": 61440,
         "Type": "utcdatetime",
-        "Value": "2022-11-02T04:40:54Z"
+        "Value": "2022-11-07T14:19:15Z"
       },
       {
         "Name": "dEL_ModifiedTime",
@@ -743,7 +743,7 @@
         "Name": "recVersion",
         "Id": 61450,
         "Type": "int",
-        "Value": 2117418228
+        "Value": 1791995293
       },
       {
         "Name": "unionAllBranchId",
