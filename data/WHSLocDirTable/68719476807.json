@@ -1,0 +1,221 @@
+{
+  "Table": {
+    "Version": 1,
+    "Name": "WHSLocDirTable",
+    "Id": 12946,
+    "Fields": [
+      {
+        "Name": "DispositionCode",
+        "Id": 1,
+        "Type": "string",
+        "Value": ""
+      },
+      {
+        "Name": "InventLocationId",
+        "Id": 2,
+        "Type": "string",
+        "Value": "51"
+      },
+      {
+        "Name": "InventSiteId",
+        "Id": 3,
+        "Type": "string",
+        "Value": "5"
+      },
+      {
+        "Name": "LocDirHintCode",
+        "Id": 4,
+        "Type": "string",
+        "Value": ""
+      },
+      {
+        "Name": "LocDirName",
+        "Id": 5,
+        "Type": "string",
+        "Value": "51 Raw Materials-Batch"
+      },
+      {
+        "Name": "LocDirQuery",
+        "Id": 6,
+        "Type": "container",
+        "Value": [
+          "SgEvJzYAOAA3ADEAOQA0ADcANgA4ADAANwAAABEAAegDGAA2ADgANwAxADkANAA3ADYAOAAw\nADcAAADNCRAAQABXAEEAWAA0ADgAOAAAAOZJBQAAAApN6wMAAIYrAACMKwAAiCsAAIsrAAB+\nRQ8AAAAAAIQEUAByAG8AZABCAE8ATQAAABEAAegDEABQAHIAbwBkAEIATwBNAAAA4gkQAFAA\ncgBvAGQAQgBPAE0AAAAJTegDAAAAAJIEAgARAAEAAP////+GBEkAbgB2AGUAbgB0AFQAcgBh\nAG4AcwBJAGQAAAARAAHoAxwASQBuAHYAZQBuAHQAVAByAGEAbgBzAEkAZAAAAOIJEABQAHIA\nbwBkAEIATwBNAAAA4wkcAEkAbgB2AGUAbgB0AFQAcgBhAG4AcwBJAGQAAADEGQIAAAAAAAH/\n/4QESQBuAHYAZQBuAHQAVABhAGIAbABlAAAAEQAB6AMYAEkAbgB2AGUAbgB0AFQAYQBiAGwA\nZQAAAOIJGABJAG4AdgBlAG4AdABUAGEAYgBsAGUAAAAJTekDAADZGQDRGQLfGQEAAJIEAgAR\nAAEAAP///////4QEVwBIAFMASQBuAHYAZQBuAHQAVABhAGIAbABlAAAAEQAB6AMeAFcASABT\nAEkAbgB2AGUAbgB0AFQAYQBiAGwAZQAAAOIJHgBXAEgAUwBJAG4AdgBlAG4AdABUAGEAYgBs\nAGUAAAAJTeoDAADZGQDRGQLfGQEAAJIEAgARAAEAAP//////////jwT//wAAAAAAAAD//48E\n//8AAAAAAAAA//+bBP//mgT//wAAAAAAAAH/////AJAFAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAA"
+        ]
+      },
+      {
+        "Name": "LocSeqNum",
+        "Id": 7,
+        "Type": "int",
+        "Value": 1
+      },
+      {
+        "Name": "MultiSKU",
+        "Id": 8,
+        "Type": "enum",
+        "Enum": "NoYes",
+        "Value": 0
+      },
+      {
+        "Name": "WorkTransType",
+        "Id": 9,
+        "Type": "enum",
+        "Enum": "WHSWorkTransType",
+        "Value": 3
+      },
+      {
+        "Name": "WorkType",
+        "Id": 10,
+        "Type": "enum",
+        "Enum": "WHSWorkType",
+        "Value": 1
+      },
+      {
+        "Name": "LocateBy",
+        "Id": 11,
+        "Type": "enum",
+        "Enum": "WHSLocDirLocateBy",
+        "Value": 0
+      },
+      {
+        "Name": "ApplicableDispositionCodeRule",
+        "Id": 12,
+        "Type": "enum",
+        "Enum": "WHSApplicableDispositionCodeRule",
+        "Value": 0
+      },
+      {
+        "Name": "Scope",
+        "Id": 13,
+        "Type": "enum",
+        "Enum": "WhsLocationDirectiveScope",
+        "Value": 0
+      },
+      {
+        "Name": "modifiedDateTime",
+        "Id": 61440,
+        "Type": "utcdatetime",
+        "Value": "2017-04-15T15:58:04Z"
+      },
+      {
+        "Name": "dEL_ModifiedTime",
+        "Id": 61441,
+        "Type": "int",
+        "Value": 0
+      },
+      {
+        "Name": "modifiedBy",
+        "Id": 61442,
+        "Type": "string",
+        "Value": "SEAN"
+      },
+      {
+        "Name": "modifiedTransactionId",
+        "Id": 61443,
+        "Type": "int64",
+        "Value": 0
+      },
+      {
+        "Name": "createdDateTime",
+        "Id": 61444,
+        "Type": "utcdatetime",
+        "Value": "1900-01-01T00:00:00Z"
+      },
+      {
+        "Name": "dEL_CreatedTime",
+        "Id": 61445,
+        "Type": "int",
+        "Value": 0
+      },
+      {
+        "Name": "createdBy",
+        "Id": 61446,
+        "Type": "string",
+        "Value": ""
+      },
+      {
+        "Name": "createdTransactionId",
+        "Id": 61447,
+        "Type": "int64",
+        "Value": 0
+      },
+      {
+        "Name": "dataAreaId",
+        "Id": 61448,
+        "Type": "string",
+        "Value": "usmf"
+      },
+      {
+        "Name": "sequenceNum",
+        "Id": 61449,
+        "Type": "int64",
+        "Value": 3168
+      },
+      {
+        "Name": "recVersion",
+        "Id": 61450,
+        "Type": "int",
+        "Value": 0
+      },
+      {
+        "Name": "unionAllBranchId",
+        "Id": 61451,
+        "Type": "int",
+        "Value": 0
+      },
+      {
+        "Name": "rowNumber",
+        "Id": 61452,
+        "Type": "int",
+        "Value": 0
+      },
+      {
+        "Name": "relationType",
+        "Id": 61453,
+        "Type": "int64",
+        "Value": 0
+      },
+      {
+        "Name": "Partition",
+        "Id": 61454,
+        "Type": "int64",
+        "Value": 5637144576
+      },
+      {
+        "Name": "sysSharingDataAreaId",
+        "Id": 61455,
+        "Type": "string",
+        "Value": ""
+      },
+      {
+        "Name": "sysSharingMasterRecid",
+        "Id": 61456,
+        "Type": "int64",
+        "Value": 0
+      },
+      {
+        "Name": "SYSSCALEUNITID",
+        "Id": 61457,
+        "Type": "string",
+        "Value": ""
+      },
+      {
+        "Name": "SYSTARGETSCALEUNITID",
+        "Id": 61458,
+        "Type": "string",
+        "Value": ""
+      },
+      {
+        "Name": "RecId",
+        "Id": 65534,
+        "Type": "int64",
+        "Value": 68719476807
+      },
+      {
+        "Name": "TableId",
+        "Id": 65535,
+        "Type": "int",
+        "Value": 12946
+      }
+    ]
+  }
+}

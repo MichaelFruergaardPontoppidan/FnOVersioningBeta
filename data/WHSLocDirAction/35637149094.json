@@ -1,0 +1,202 @@
+{
+  "Table": {
+    "Version": 1,
+    "Name": "WHSLocDirAction",
+    "Id": 147,
+    "Fields": [
+      {
+        "Name": "AllowNegative",
+        "Id": 1,
+        "Type": "enum",
+        "Enum": "NoYes",
+        "Value": 0
+      },
+      {
+        "Name": "BatchEnabled",
+        "Id": 2,
+        "Type": "enum",
+        "Enum": "NoYes",
+        "Value": 0
+      },
+      {
+        "Name": "LocDirName",
+        "Id": 3,
+        "Type": "string",
+        "Value": "Batch"
+      },
+      {
+        "Name": "LocDirQuery",
+        "Id": 4,
+        "Type": "container",
+        "Value": [
+          "SgEvJzMANQA2ADMANwAxADQAOQAwADkAMwB8ADMANQA2ADMANwAxADQAOQAwADkANAAAABEA\nAegDMAAzADUANgAzADcAMQA0ADkAMAA5ADMAfAAzADUANgAzADcAMQA0ADkAMAA5ADQAAADm\nSaQAAAAKTfcDAAAAAIQEVwBNAFMATABvAGMAYQB0AGkAbwBuAAAAEQAB6AMYAFcATQBTAEwA\nbwBjAGEAdABpAG8AbgAAAOIJGABXAE0AUwBMAG8AYwBhAHQAaQBvAG4AAAAJTegDAAAAAJIE\nAgARAAEAAP////+GBGkAbgB2AGUAbgB0AEwAbwBjAGEAdABpAG8AbgBJAGQAAAARAAHoAyIA\naQBuAHYAZQBuAHQATABvAGMAYQB0AGkAbwBuAEkAZAAAAOIJGABXAE0AUwBMAG8AYwBhAHQA\naQBvAG4AAADWDRgAVwBNAFMATABvAGMAYQB0AGkAbwBuAAAA4wkiAGkAbgB2AGUAbgB0AEwA\nbwBjAGEAdABpAG8AbgBJAGQAAADaaTMANAAAAMQZAQAAAAAAAf////+bBP//mgT//wFXAE0A\nUwBMAG8AYwBhAHQAaQBvAG4AAABMAG8AYwBQAHIAbwBmAGkAbABlAEkAZAAAAEYATABPAE8A\nUgAAAOgDAAAAAAAAAAEAAAAAAAAB/////wCQBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAA=="
+        ]
+      },
+      {
+        "Name": "LocDirStrategy",
+        "Id": 5,
+        "Type": "enum",
+        "Enum": "WHSLocDirStrategy",
+        "Value": 0
+      },
+      {
+        "Name": "LocSeqNum",
+        "Id": 6,
+        "Type": "int",
+        "Value": 1
+      },
+      {
+        "Name": "RefRecId",
+        "Id": 7,
+        "Type": "int64",
+        "Value": 35637149093
+      },
+      {
+        "Name": "UseInventFixedLocation",
+        "Id": 8,
+        "Type": "enum",
+        "Enum": "WHSUseFixedLocations",
+        "Value": 0
+      },
+      {
+        "Name": "UseDimOfInventSum",
+        "Id": 10,
+        "Type": "enum",
+        "Enum": "WHSLocDirActionQueryUseDimOfInventSum",
+        "Value": 0
+      },
+      {
+        "Name": "LocDirQueryV1",
+        "Id": 9,
+        "Type": "container",
+        "Value": []
+      },
+      {
+        "Name": "modifiedDateTime",
+        "Id": 61440,
+        "Type": "utcdatetime",
+        "Value": "2018-03-03T10:13:18Z"
+      },
+      {
+        "Name": "dEL_ModifiedTime",
+        "Id": 61441,
+        "Type": "int",
+        "Value": 0
+      },
+      {
+        "Name": "modifiedBy",
+        "Id": 61442,
+        "Type": "string",
+        "Value": "SARA"
+      },
+      {
+        "Name": "modifiedTransactionId",
+        "Id": 61443,
+        "Type": "int64",
+        "Value": 0
+      },
+      {
+        "Name": "createdDateTime",
+        "Id": 61444,
+        "Type": "utcdatetime",
+        "Value": "1900-01-01T00:00:00Z"
+      },
+      {
+        "Name": "dEL_CreatedTime",
+        "Id": 61445,
+        "Type": "int",
+        "Value": 0
+      },
+      {
+        "Name": "createdBy",
+        "Id": 61446,
+        "Type": "string",
+        "Value": ""
+      },
+      {
+        "Name": "createdTransactionId",
+        "Id": 61447,
+        "Type": "int64",
+        "Value": 0
+      },
+      {
+        "Name": "dataAreaId",
+        "Id": 61448,
+        "Type": "string",
+        "Value": "usmf"
+      },
+      {
+        "Name": "sequenceNum",
+        "Id": 61449,
+        "Type": "int64",
+        "Value": 3024
+      },
+      {
+        "Name": "recVersion",
+        "Id": 61450,
+        "Type": "int",
+        "Value": 0
+      },
+      {
+        "Name": "unionAllBranchId",
+        "Id": 61451,
+        "Type": "int",
+        "Value": 0
+      },
+      {
+        "Name": "rowNumber",
+        "Id": 61452,
+        "Type": "int",
+        "Value": 0
+      },
+      {
+        "Name": "relationType",
+        "Id": 61453,
+        "Type": "int64",
+        "Value": 0
+      },
+      {
+        "Name": "Partition",
+        "Id": 61454,
+        "Type": "int64",
+        "Value": 5637144576
+      },
+      {
+        "Name": "sysSharingDataAreaId",
+        "Id": 61455,
+        "Type": "string",
+        "Value": ""
+      },
+      {
+        "Name": "sysSharingMasterRecid",
+        "Id": 61456,
+        "Type": "int64",
+        "Value": 0
+      },
+      {
+        "Name": "SYSSCALEUNITID",
+        "Id": 61457,
+        "Type": "string",
+        "Value": ""
+      },
+      {
+        "Name": "SYSTARGETSCALEUNITID",
+        "Id": 61458,
+        "Type": "string",
+        "Value": ""
+      },
+      {
+        "Name": "RecId",
+        "Id": 65534,
+        "Type": "int64",
+        "Value": 35637149094
+      },
+      {
+        "Name": "TableId",
+        "Id": 65535,
+        "Type": "int",
+        "Value": 147
+      }
+    ]
+  }
+}
