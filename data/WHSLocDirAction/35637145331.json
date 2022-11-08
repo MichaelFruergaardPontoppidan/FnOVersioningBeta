@@ -2,7 +2,7 @@
   "Table": {
     "Version": 1,
     "Name": "WHSLocDirAction",
-    "Id": 147, 
+    "Id": 147,
     "Fields": {
       "AllowNegative": 0,
       "BatchEnabled": 0,
