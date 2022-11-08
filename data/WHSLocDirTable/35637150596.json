@@ -3,219 +3,43 @@
     "Version": 1,
     "Name": "WHSLocDirTable",
     "Id": 12946,
-    "Fields": [
-      {
-        "Name": "DispositionCode",
-        "Id": 1,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "InventLocationId",
-        "Id": 2,
-        "Type": "string",
-        "Value": "51"
-      },
-      {
-        "Name": "InventSiteId",
-        "Id": 3,
-        "Type": "string",
-        "Value": "5"
-      },
-      {
-        "Name": "LocDirHintCode",
-        "Id": 4,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "LocDirName",
-        "Id": 5,
-        "Type": "string",
-        "Value": "51 QMS"
-      },
-      {
-        "Name": "LocDirQuery",
-        "Id": 6,
-        "Type": "container",
-        "Value": [
-          "SgEvJzMANQA2ADMANwAxADUAMAA1ADkANgAAABEAAegDGAAzADUANgAzADcAMQA1ADAANQA5\nADYAAADNyUAAVwBBAFgAMwAAAOZJkQAAAApN/gMAAAAAhARQAHUAcgBjAGgAVABhAGIAbABl\nAAAAEQAB6AMWAFAAdQByAGMAaABUAGEAYgBsAGUAAADiCRYAUAB1AHIAYwBoAFQAYQBiAGwA\nZQAAAAlN+AMAAAAAkgQCABEAAQAA////////hARQAHUAcgBjAGgATABpAG4AZQAAABEAAegD\nFABQAHUAcgBjAGgATABpAG4AZQAAAOIJFABQAHUAcgBjAGgATABpAG4AZQAAAAlN+QMAANkZ\nANEZAt8ZAQAAkgQCABEAAQAA/////4YESQBuAHYAZQBuAHQAVAByAGEAbgBzAEkAZAAAABEA\nAegDHABJAG4AdgBlAG4AdABUAHIAYQBuAHMASQBkAAAA4gkUAFAAdQByAGMAaABMAGkAbgBl\nAAAA1g0UAFAAdQByAGMAaABMAGkAbgBlAAAA4wkcAEkAbgB2AGUAbgB0AFQAcgBhAG4AcwBJ\nAGQAAADEGQIAAAAAAAH//4QESQBuAHYAZQBuAHQAVABhAGIAbABlAAAAEQAB6AMYAEkAbgB2\nAGUAbgB0AFQAYQBiAGwAZQAAAOIJGABJAG4AdgBlAG4AdABUAGEAYgBsAGUAAAAJTfoDAADZ\nGQDRGQLfGQEAAJIEAgARAAEAAP///////4QEVwBIAFMASQBuAHYAZQBuAHQAVABhAGIAbABl\nAAAAEQAB6AMeAFcASABTAEkAbgB2AGUAbgB0AFQAYQBiAGwAZQAAAOIJHgBXAEgAUwBJAG4A\ndgBlAG4AdABUAGEAYgBsAGUAAAAJTfwDAADZGQDRGQLfGQEAAJIEAgARAAEAAP//////////\njwT//wAAAAAAAAD//48E//8AAAAAAAAAhARJAG4AdgBlAG4AdABRAHUAYQBsAGkAdAB5AE8A\ncgBkAGUAcgBUAGEAYgBsAGUAAAARAAHoAzQASQBuAHYAZQBuAHQAUQB1AGEAbABpAHQAeQBP\nAHIAZABlAHIAVABhAGIAbABlAF8AMQAAAOIJMABJAG4AdgBlAG4AdABRAHUAYQBsAGkAdAB5\nAE8AcgBkAGUAcgBUAGEAYgBsAGUAAAAJTf0DAADZGQDRGQIAAJIEAgARAAEAAP////+GBFIA\nZQBmAGUAcgBlAG4AYwBlAFQAeQBwAGUAAAARAAHoAxwAUgBlAGYAZQByAGUAbgBjAGUAVAB5\nAHAAZQAAAOIJMABJAG4AdgBlAG4AdABRAHUAYQBsAGkAdAB5AE8AcgBkAGUAcgBUAGEAYgBs\nAGUAAADWDTAASQBuAHYAZQBuAHQAUQB1AGEAbABpAHQAeQBPAHIAZABlAHIAVABhAGIAbABl\nAAAA4wkcAFIAZQBmAGUAcgBlAG4AYwBlAFQAeQBwAGUAAADaSTIAAADEGQIAAAEAAAGGBE8A\ncgBkAGUAcgBTAHQAYQB0AHUAcwAAABEAAegDGABPAHIAZABlAHIAUwB0AGEAdAB1AHMAAADi\nCTAASQBuAHYAZQBuAHQAUQB1AGEAbABpAHQAeQBPAHIAZABlAHIAVABhAGIAbABlAAAA1g0w\nAEkAbgB2AGUAbgB0AFEAdQBhAGwAaQB0AHkATwByAGQAZQByAFQAYQBiAGwAZQAAAOMJGABP\nAHIAZABlAHIAUwB0AGEAdAB1AHMAAADaSTAAAAAAAAAAAAH/////jwSQBFAAdQByAGMAaABM\nAGkAbgBlAAAASQBuAHYAZQBuAHQAUQB1AGEAbABpAHQAeQBPAHIAZABlAHIAVABhAGIAbABl\nAAAAbgB1AGwAbAAAAFAAdQByAGMAaABMAGkAbgBlAAAAUAB1AHIAYwBoAEkAZAAAAEkAbgB2\nAGUAbgB0AFIAZQBmAEkAZAAAAAAAUAB1AHIAYwBoAEwAaQBuAGUAAABJAG4AdgBlAG4AdABR\nAHUAYQBsAGkAdAB5AE8AcgBkAGUAcgBUAGEAYgBsAGUAAACQBFAAdQByAGMAaABMAGkAbgBl\nAAAASQBuAHYAZQBuAHQAUQB1AGEAbABpAHQAeQBPAHIAZABlAHIAVABhAGIAbABlAAAAbgB1\nAGwAbAAAAFAAdQByAGMAaABMAGkAbgBlAAAASQBuAHYAZQBuAHQAVAByAGEAbgBzAEkAZAAA\nAEkAbgB2AGUAbgB0AFIAZQBmAFQAcgBhAG4AcwBJAGQAAAAAAFAAdQByAGMAaABMAGkAbgBl\nAAAASQBuAHYAZQBuAHQAUQB1AGEAbABpAHQAeQBPAHIAZABlAHIAVABhAGIAbABlAAAA//8A\nAAAAAAAA//+PBP//AAAAAAAAAP//mwT//5oE//8BUAB1AHIAYwBoAFQAYQBiAGwAZQAAAFAA\ndQByAGMAaABJAGQAAAAAAPgDAAAAAAAAAAEAAAAAAAAB/////wCQBQAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAA=="
-        ]
-      },
-      {
-        "Name": "LocSeqNum",
-        "Id": 7,
-        "Type": "int",
-        "Value": 4
-      },
-      {
-        "Name": "MultiSKU",
-        "Id": 8,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 0
-      },
-      {
-        "Name": "WorkTransType",
-        "Id": 9,
-        "Type": "enum",
-        "Enum": "WHSWorkTransType",
-        "Value": 1
-      },
-      {
-        "Name": "WorkType",
-        "Id": 10,
-        "Type": "enum",
-        "Enum": "WHSWorkType",
-        "Value": 2
-      },
-      {
-        "Name": "LocateBy",
-        "Id": 11,
-        "Type": "enum",
-        "Enum": "WHSLocDirLocateBy",
-        "Value": 0
-      },
-      {
-        "Name": "ApplicableDispositionCodeRule",
-        "Id": 12,
-        "Type": "enum",
-        "Enum": "WHSApplicableDispositionCodeRule",
-        "Value": 0
-      },
-      {
-        "Name": "Scope",
-        "Id": 13,
-        "Type": "enum",
-        "Enum": "WhsLocationDirectiveScope",
-        "Value": 0
-      },
-      {
-        "Name": "modifiedDateTime",
-        "Id": 61440,
-        "Type": "utcdatetime",
-        "Value": "2018-03-19T12:51:04Z"
-      },
-      {
-        "Name": "dEL_ModifiedTime",
-        "Id": 61441,
-        "Type": "int",
-        "Value": 0
-      },
-      {
-        "Name": "modifiedBy",
-        "Id": 61442,
-        "Type": "string",
-        "Value": "Admin"
-      },
-      {
-        "Name": "modifiedTransactionId",
-        "Id": 61443,
-        "Type": "int64",
-        "Value": 0
-      },
-      {
-        "Name": "createdDateTime",
-        "Id": 61444,
-        "Type": "utcdatetime",
-        "Value": "1900-01-01T00:00:00Z"
-      },
-      {
-        "Name": "dEL_CreatedTime",
-        "Id": 61445,
-        "Type": "int",
-        "Value": 0
-      },
-      {
-        "Name": "createdBy",
-        "Id": 61446,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "createdTransactionId",
-        "Id": 61447,
-        "Type": "int64",
-        "Value": 0
-      },
-      {
-        "Name": "dataAreaId",
-        "Id": 61448,
-        "Type": "string",
-        "Value": "usmf"
-      },
-      {
-        "Name": "sequenceNum",
-        "Id": 61449,
-        "Type": "int64",
-        "Value": 4368
-      },
-      {
-        "Name": "recVersion",
-        "Id": 61450,
-        "Type": "int",
-        "Value": 0
-      },
-      {
-        "Name": "unionAllBranchId",
-        "Id": 61451,
-        "Type": "int",
-        "Value": 0
-      },
-      {
-        "Name": "rowNumber",
-        "Id": 61452,
-        "Type": "int",
-        "Value": 0
-      },
-      {
-        "Name": "relationType",
-        "Id": 61453,
-        "Type": "int64",
-        "Value": 0
-      },
-      {
-        "Name": "Partition",
-        "Id": 61454,
-        "Type": "int64",
-        "Value": 5637144576
-      },
-      {
-        "Name": "sysSharingDataAreaId",
-        "Id": 61455,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "sysSharingMasterRecid",
-        "Id": 61456,
-        "Type": "int64",
-        "Value": 0
-      },
-      {
-        "Name": "SYSSCALEUNITID",
-        "Id": 61457,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "SYSTARGETSCALEUNITID",
-        "Id": 61458,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "RecId",
-        "Id": 65534,
-        "Type": "int64",
-        "Value": 35637150596
-      },
-      {
-        "Name": "TableId",
-        "Id": 65535,
-        "Type": "int",
-        "Value": 12946
-      }
-    ]
+    "Fields": {
+      "DispositionCode": "",
+      "InventLocationId": "51",
+      "InventSiteId": "5",
+      "LocDirHintCode": "",
+      "LocDirName": "51 QMS",
+      "LocDirQuery": [
+        "SgEvJzMANQA2ADMANwAxADUAMAA1ADkANgAAABEAAegDGAAzADUANgAzADcAMQA1ADAANQA5\nADYAAADNyUAAVwBBAFgAMwAAAOZJkQAAAApN/gMAAAAAhARQAHUAcgBjAGgAVABhAGIAbABl\nAAAAEQAB6AMWAFAAdQByAGMAaABUAGEAYgBsAGUAAADiCRYAUAB1AHIAYwBoAFQAYQBiAGwA\nZQAAAAlN+AMAAAAAkgQCABEAAQAA////////hARQAHUAcgBjAGgATABpAG4AZQAAABEAAegD\nFABQAHUAcgBjAGgATABpAG4AZQAAAOIJFABQAHUAcgBjAGgATABpAG4AZQAAAAlN+QMAANkZ\nANEZAt8ZAQAAkgQCABEAAQAA/////4YESQBuAHYAZQBuAHQAVAByAGEAbgBzAEkAZAAAABEA\nAegDHABJAG4AdgBlAG4AdABUAHIAYQBuAHMASQBkAAAA4gkUAFAAdQByAGMAaABMAGkAbgBl\nAAAA1g0UAFAAdQByAGMAaABMAGkAbgBlAAAA4wkcAEkAbgB2AGUAbgB0AFQAcgBhAG4AcwBJ\nAGQAAADEGQIAAAAAAAH//4QESQBuAHYAZQBuAHQAVABhAGIAbABlAAAAEQAB6AMYAEkAbgB2\nAGUAbgB0AFQAYQBiAGwAZQAAAOIJGABJAG4AdgBlAG4AdABUAGEAYgBsAGUAAAAJTfoDAADZ\nGQDRGQLfGQEAAJIEAgARAAEAAP///////4QEVwBIAFMASQBuAHYAZQBuAHQAVABhAGIAbABl\nAAAAEQAB6AMeAFcASABTAEkAbgB2AGUAbgB0AFQAYQBiAGwAZQAAAOIJHgBXAEgAUwBJAG4A\ndgBlAG4AdABUAGEAYgBsAGUAAAAJTfwDAADZGQDRGQLfGQEAAJIEAgARAAEAAP//////////\njwT//wAAAAAAAAD//48E//8AAAAAAAAAhARJAG4AdgBlAG4AdABRAHUAYQBsAGkAdAB5AE8A\ncgBkAGUAcgBUAGEAYgBsAGUAAAARAAHoAzQASQBuAHYAZQBuAHQAUQB1AGEAbABpAHQAeQBP\nAHIAZABlAHIAVABhAGIAbABlAF8AMQAAAOIJMABJAG4AdgBlAG4AdABRAHUAYQBsAGkAdAB5\nAE8AcgBkAGUAcgBUAGEAYgBsAGUAAAAJTf0DAADZGQDRGQIAAJIEAgARAAEAAP////+GBFIA\nZQBmAGUAcgBlAG4AYwBlAFQAeQBwAGUAAAARAAHoAxwAUgBlAGYAZQByAGUAbgBjAGUAVAB5\nAHAAZQAAAOIJMABJAG4AdgBlAG4AdABRAHUAYQBsAGkAdAB5AE8AcgBkAGUAcgBUAGEAYgBs\nAGUAAADWDTAASQBuAHYAZQBuAHQAUQB1AGEAbABpAHQAeQBPAHIAZABlAHIAVABhAGIAbABl\nAAAA4wkcAFIAZQBmAGUAcgBlAG4AYwBlAFQAeQBwAGUAAADaSTIAAADEGQIAAAEAAAGGBE8A\ncgBkAGUAcgBTAHQAYQB0AHUAcwAAABEAAegDGABPAHIAZABlAHIAUwB0AGEAdAB1AHMAAADi\nCTAASQBuAHYAZQBuAHQAUQB1AGEAbABpAHQAeQBPAHIAZABlAHIAVABhAGIAbABlAAAA1g0w\nAEkAbgB2AGUAbgB0AFEAdQBhAGwAaQB0AHkATwByAGQAZQByAFQAYQBiAGwAZQAAAOMJGABP\nAHIAZABlAHIAUwB0AGEAdAB1AHMAAADaSTAAAAAAAAAAAAH/////jwSQBFAAdQByAGMAaABM\nAGkAbgBlAAAASQBuAHYAZQBuAHQAUQB1AGEAbABpAHQAeQBPAHIAZABlAHIAVABhAGIAbABl\nAAAAbgB1AGwAbAAAAFAAdQByAGMAaABMAGkAbgBlAAAAUAB1AHIAYwBoAEkAZAAAAEkAbgB2\nAGUAbgB0AFIAZQBmAEkAZAAAAAAAUAB1AHIAYwBoAEwAaQBuAGUAAABJAG4AdgBlAG4AdABR\nAHUAYQBsAGkAdAB5AE8AcgBkAGUAcgBUAGEAYgBsAGUAAACQBFAAdQByAGMAaABMAGkAbgBl\nAAAASQBuAHYAZQBuAHQAUQB1AGEAbABpAHQAeQBPAHIAZABlAHIAVABhAGIAbABlAAAAbgB1\nAGwAbAAAAFAAdQByAGMAaABMAGkAbgBlAAAASQBuAHYAZQBuAHQAVAByAGEAbgBzAEkAZAAA\nAEkAbgB2AGUAbgB0AFIAZQBmAFQAcgBhAG4AcwBJAGQAAAAAAFAAdQByAGMAaABMAGkAbgBl\nAAAASQBuAHYAZQBuAHQAUQB1AGEAbABpAHQAeQBPAHIAZABlAHIAVABhAGIAbABlAAAA//8A\nAAAAAAAA//+PBP//AAAAAAAAAP//mwT//5oE//8BUAB1AHIAYwBoAFQAYQBiAGwAZQAAAFAA\ndQByAGMAaABJAGQAAAAAAPgDAAAAAAAAAAEAAAAAAAAB/////wCQBQAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAA=="
+      ],
+      "LocSeqNum": 4,
+      "MultiSKU": 0,
+      "WorkTransType": 1,
+      "WorkType": 2,
+      "LocateBy": 0,
+      "ApplicableDispositionCodeRule": 0,
+      "Scope": 0,
+      "modifiedDateTime": "2018-03-19T12:51:04Z",
+      "dEL_ModifiedTime": 0,
+      "modifiedBy": "Admin",
+      "modifiedTransactionId": 0,
+      "createdDateTime": "1900-01-01T00:00:00Z",
+      "dEL_CreatedTime": 0,
+      "createdBy": "",
+      "createdTransactionId": 0,
+      "dataAreaId": "usmf",
+      "sequenceNum": 4368,
+      "recVersion": 0,
+      "unionAllBranchId": 0,
+      "rowNumber": 0,
+      "relationType": 0,
+      "Partition": 5637144576,
+      "sysSharingDataAreaId": "",
+      "sysSharingMasterRecid": 0,
+      "SYSSCALEUNITID": "",
+      "SYSTARGETSCALEUNITID": "",
+      "RecId": 35637150596,
+      "TableId": 12946
+    }
   }
 }

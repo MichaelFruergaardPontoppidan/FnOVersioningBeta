@@ -3,808 +3,133 @@
     "Version": 1,
     "Name": "WHSParameters",
     "Id": 1902,
-    "Fields": [
-      {
-        "Name": "DefaultAdjustmentTypeCode",
-        "Id": 13,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "UserLocType",
-        "Id": 54,
-        "Type": "string",
-        "Value": "USER"
-      },
-      {
-        "Name": "ASNMissingItemCode",
-        "Id": 1,
-        "Type": "string",
-        "Value": "ASN"
-      },
-      {
-        "Name": "AutoCleanEmptyLoadManifest",
-        "Id": 2,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 0
-      },
-      {
-        "Name": "AutoCreateLoad",
-        "Id": 3,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 0
-      },
-      {
-        "Name": "AutoCreateLoadPO",
-        "Id": 4,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 0
-      },
-      {
-        "Name": "AutoCreateLoadTO",
-        "Id": 5,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 0
-      },
-      {
-        "Name": "BarcodeSetupId",
-        "Id": 6,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "BOLNoteType",
-        "Id": 7,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "ConsolidateLoads",
-        "Id": 8,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 0
-      },
-      {
-        "Name": "ContainerizationLog",
-        "Id": 9,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 1
-      },
-      {
-        "Name": "CustFilterCode",
-        "Id": 10,
-        "Type": "string",
-        "Value": ";;;;;;;;;"
-      },
-      {
-        "Name": "CycleCountAdjustmentTypeCode",
-        "Id": 11,
-        "Type": "string",
-        "Value": "Cycle Count"
-      },
-      {
-        "Name": "CycleCountWorkPriority",
-        "Id": 12,
-        "Type": "int",
-        "Value": 50
-      },
-      {
-        "Name": "DisplayCreditMaxCheckDialog",
-        "Id": 62,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 0
-      },
-      {
-        "Name": "DefaultCycleCountWorkClassId",
-        "Id": 14,
-        "Type": "string",
-        "Value": "CCount"
-      },
-      {
-        "Name": "DefaultLabelReportName",
-        "Id": 16,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "DefaultLPUOM",
-        "Id": 17,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "DefaultReturnJournal",
-        "Id": 18,
-        "Type": "string",
-        "Value": "WHS"
-      },
-      {
-        "Name": "DefaultStatusId",
-        "Id": 19,
-        "Type": "string",
-        "Value": "Available"
-      },
-      {
-        "Name": "DefaultStatusOnSOTO",
-        "Id": 20,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 1
-      },
-      {
-        "Name": "DefaultWhseTransJournal",
-        "Id": 22,
-        "Type": "string",
-        "Value": "ITrf"
-      },
-      {
-        "Name": "EnableCustFilters",
-        "Id": 23,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 0
-      },
-      {
-        "Name": "EnableVendFilters",
-        "Id": 25,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 0
-      },
-      {
-        "Name": "ExecuteWaveInBatch",
-        "Id": 27,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 1
-      },
-      {
-        "Name": "FilterWildcard",
-        "Id": 28,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "FulfillmentRate",
-        "Id": 30,
-        "Type": "decimal",
-        "Value": 0.0
-      },
-      {
-        "Name": "FulfillmentType",
-        "Id": 31,
-        "Type": "enum",
-        "Enum": "WHSFulfillmentType",
-        "Value": 0
-      },
-      {
-        "Name": "GenericWorkUserId",
-        "Id": 32,
-        "Type": "string",
-        "Value": "RF Gen"
-      },
-      {
-        "Name": "LabelFormat",
-        "Id": 33,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "LoadNoteType",
-        "Id": 34,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "LoadPlanning",
-        "Id": 35,
-        "Type": "enum",
-        "Enum": "WHSLoadPlanning",
-        "Value": 0
-      },
-      {
-        "Name": "LoadSynchronizationPolicy",
-        "Id": 36,
-        "Type": "enum",
-        "Enum": "WHSLoadSynchronizationPolicy",
-        "Value": 0
-      },
-      {
-        "Name": "NumDaysToMix",
-        "Id": 37,
-        "Type": "int",
-        "Value": 0
-      },
-      {
-        "Name": "PackingLocType",
-        "Id": 38,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "PackingLocationType",
-        "Id": 63,
-        "Type": "string",
-        "Value": "PACK"
-      },
-      {
-        "Name": "PackingScreenNoteType",
-        "Id": 39,
-        "Type": "string",
-        "Value": "Note"
-      },
-      {
-        "Name": "ParametersKey",
-        "Id": 40,
-        "Type": "int",
-        "Value": 0
-      },
-      {
-        "Name": "PrintSettings",
-        "Id": 41,
-        "Type": "container",
-        "Value": []
-      },
-      {
-        "Name": "ReportFileName",
-        "Id": 42,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "RetainTmpWorkTable",
-        "Id": 43,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 1
-      },
-      {
-        "Name": "RFErrorRecords",
-        "Id": 44,
-        "Type": "int",
-        "Value": 100
-      },
-      {
-        "Name": "RFNoteType",
-        "Id": 45,
-        "Type": "string",
-        "Value": "Note"
-      },
-      {
-        "Name": "RFSessionLogging",
-        "Id": 46,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 1
-      },
-      {
-        "Name": "ScannedQtyLimit",
-        "Id": 47,
-        "Type": "decimal",
-        "Value": 100000.0
-      },
-      {
-        "Name": "ShipFinalLocType",
-        "Id": 48,
-        "Type": "string",
-        "Value": "BAYDOOR"
-      },
-      {
-        "Name": "ShipPickListNoteType",
-        "Id": 49,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "StageLocType",
-        "Id": 50,
-        "Type": "string",
-        "Value": "STAGE"
-      },
-      {
-        "Name": "ToteReuse",
-        "Id": 51,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 0
-      },
-      {
-        "Name": "UCCCompanyPrefix",
-        "Id": 52,
-        "Type": "string",
-        "Value": "GS1"
-      },
-      {
-        "Name": "UnregisterAtWorkCancel",
-        "Id": 53,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 0
-      },
-      {
-        "Name": "VendFilterCode",
-        "Id": 55,
-        "Type": "string",
-        "Value": ";;;;;;;;;"
-      },
-      {
-        "Name": "WaveBatchGroup",
-        "Id": 56,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "WaveExecutionHistoryLog",
-        "Id": 57,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 1
-      },
-      {
-        "Name": "WaveLockWait",
-        "Id": 58,
-        "Type": "int",
-        "Value": 60000
-      },
-      {
-        "Name": "WorkCreateHistoryLog",
-        "Id": 60,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 1
-      },
-      {
-        "Name": "WorkCreateHistoryLogUntilDate",
-        "Id": 104,
-        "Type": "utcdatetime",
-        "Value": "1900-01-01T00:00:00Z"
-      },
-      {
-        "Name": "WorkPriority",
-        "Id": 61,
-        "Type": "int",
-        "Value": 50
-      },
-      {
-        "Name": "EnableOrderLoadHistory",
-        "Id": 24,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 0
-      },
-      {
-        "Name": "EnableWarehouseLoadHistory",
-        "Id": 26,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 0
-      },
-      {
-        "Name": "WaveProgressLog",
-        "Id": 59,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 1
-      },
-      {
-        "Name": "FulfillmentErrorTolerance",
-        "Id": 29,
-        "Type": "enum",
-        "Enum": "ErrorTolerance",
-        "Value": 0
-      },
-      {
-        "Name": "DefaultFreightCounted",
-        "Id": 15,
-        "Type": "enum",
-        "Enum": "WMSFreightCounted",
-        "Value": 0
-      },
-      {
-        "Name": "DefaultTrailerLoaded",
-        "Id": 21,
-        "Type": "enum",
-        "Enum": "WMSTrailerLoaded",
-        "Value": 0
-      },
-      {
-        "Name": "DefaultContainerTypeCode",
-        "Id": 65,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "CreatePendingAllocationLog",
-        "Id": 64,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 0
-      },
-      {
-        "Name": "FulfillmentRateCheck",
-        "Id": 66,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 0
-      },
-      {
-        "Name": "SalesOrderFulfillmentPolicy",
-        "Id": 67,
-        "Type": "int64",
-        "Value": 0
-      },
-      {
-        "Name": "TransferOrderFulfillmentPolicy",
-        "Id": 68,
-        "Type": "int64",
-        "Value": 0
-      },
-      {
-        "Name": "TransferOrderReceivingProcess",
-        "Id": 69,
-        "Type": "enum",
-        "Enum": "WHSTransferOrderReceivingProcess",
-        "Value": 0
-      },
-      {
-        "Name": "EnableSystemDirectedWorkSequencing",
-        "Id": 70,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 1
-      },
-      {
-        "Name": "EnableWaveStepCode",
-        "Id": 72,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 1
-      },
-      {
-        "Name": "WorkProcessingPolicyName",
-        "Id": 75,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "WaveLabelBOLNumGen",
-        "Id": 74,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 0
-      },
-      {
-        "Name": "SortingLocationType",
-        "Id": 73,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "EnableBlockingReasons",
-        "Id": 71,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 0
-      },
-      {
-        "Name": "AllowMultipleProductReceiptsForLoad",
-        "Id": 80,
-        "Type": "enum",
-        "Enum": "WHSAllowMultipleProductReceiptsForLoad",
-        "Value": 0
-      },
-      {
-        "Name": "HMIMMultimodalDGRegCode",
-        "Id": 78,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "HMIMCarrOfMerchByRoadGroupProduct",
-        "Id": 76,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 0
-      },
-      {
-        "Name": "HMIMHazardousMaterialGroupDesc",
-        "Id": 77,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "HMIMDomesticLanguage",
-        "Id": 83,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "HMIMExportLanguage",
-        "Id": 84,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "HMIMStockListLimitsRegCode",
-        "Id": 79,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "EnablePurchaseOrderRegistrationInExternalReview",
-        "Id": 81,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 0
-      },
-      {
-        "Name": "HMIMWarning",
-        "Id": 85,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "HMIMFooterMsg",
-        "Id": 82,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "TransitWarehouseLicensePlatePolicy",
-        "Id": 86,
-        "Type": "enum",
-        "Enum": "WHSTransitWarehouseLicensePlatePolicy",
-        "Value": 0
-      },
-      {
-        "Name": "HMIMDefaultRegCode",
-        "Id": 87,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "LicensePlateTrackingValidation",
-        "Id": 88,
-        "Type": "enum",
-        "Enum": "WHSLicensePlateTrackingValidation",
-        "Value": 0
-      },
-      {
-        "Name": "WaveBatchDisableNotifications",
-        "Id": 89,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 0
-      },
-      {
-        "Name": "EnableLicensePlateReceivingHistory",
-        "Id": 90,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 0
-      },
-      {
-        "Name": "EnableReleaseToWarehouseErrorOnBatchFailure",
-        "Id": 91,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 0
-      },
-      {
-        "Name": "LocationDistanceCalculationEngine",
-        "Id": 99,
-        "Type": "enum",
-        "Enum": "WHSWarehouseLocationDistanceCalculationEngineEnum",
-        "Value": 0
-      },
-      {
-        "Name": "GS1FNC1Character",
-        "Id": 94,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "GS1DataMatrixCharacter",
-        "Id": 93,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "GS1QRCodeCharacter",
-        "Id": 97,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "GS1GroupSeparator",
-        "Id": 95,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "GS1IdentifierMaxLength",
-        "Id": 96,
-        "Type": "int",
-        "Value": 0
-      },
-      {
-        "Name": "PutLocationDirectiveLockWait",
-        "Id": 102,
-        "Type": "int",
-        "Value": 0
-      },
-      {
-        "Name": "PutLocationDirectiveConcStrictness",
-        "Id": 101,
-        "Type": "enum",
-        "Enum": "WHSPutLocationDirectiveConcStrictness",
-        "Value": 0
-      },
-      {
-        "Name": "SkipDefaultItemStatus",
-        "Id": 103,
-        "Type": "enum",
-        "Enum": "WHSSkipDefaultItemStatus",
-        "Value": 0
-      },
-      {
-        "Name": "HMIMEMSCode",
-        "Id": 98,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "NonHMIMMaterialGroupDescription",
-        "Id": 100,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "BillOfLadingFooterText",
-        "Id": 105,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "EnableRSATForMobile",
-        "Id": 92,
-        "Type": "enum",
-        "Enum": "NoYes",
-        "Value": 0
-      },
-      {
-        "Name": "modifiedDateTime",
-        "Id": 61440,
-        "Type": "utcdatetime",
-        "Value": "2022-11-07T14:19:15Z"
-      },
-      {
-        "Name": "dEL_ModifiedTime",
-        "Id": 61441,
-        "Type": "int",
-        "Value": 0
-      },
-      {
-        "Name": "modifiedBy",
-        "Id": 61442,
-        "Type": "string",
-        "Value": "Admin"
-      },
-      {
-        "Name": "modifiedTransactionId",
-        "Id": 61443,
-        "Type": "int64",
-        "Value": 0
-      },
-      {
-        "Name": "createdDateTime",
-        "Id": 61444,
-        "Type": "utcdatetime",
-        "Value": "1900-01-01T00:00:00Z"
-      },
-      {
-        "Name": "dEL_CreatedTime",
-        "Id": 61445,
-        "Type": "int",
-        "Value": 0
-      },
-      {
-        "Name": "createdBy",
-        "Id": 61446,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "createdTransactionId",
-        "Id": 61447,
-        "Type": "int64",
-        "Value": 0
-      },
-      {
-        "Name": "dataAreaId",
-        "Id": 61448,
-        "Type": "string",
-        "Value": "usmf"
-      },
-      {
-        "Name": "sequenceNum",
-        "Id": 61449,
-        "Type": "int64",
-        "Value": 2928
-      },
-      {
-        "Name": "recVersion",
-        "Id": 61450,
-        "Type": "int",
-        "Value": 1791995293
-      },
-      {
-        "Name": "unionAllBranchId",
-        "Id": 61451,
-        "Type": "int",
-        "Value": 0
-      },
-      {
-        "Name": "rowNumber",
-        "Id": 61452,
-        "Type": "int",
-        "Value": 0
-      },
-      {
-        "Name": "relationType",
-        "Id": 61453,
-        "Type": "int64",
-        "Value": 0
-      },
-      {
-        "Name": "Partition",
-        "Id": 61454,
-        "Type": "int64",
-        "Value": 5637144576
-      },
-      {
-        "Name": "sysSharingDataAreaId",
-        "Id": 61455,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "sysSharingMasterRecid",
-        "Id": 61456,
-        "Type": "int64",
-        "Value": 0
-      },
-      {
-        "Name": "SYSSCALEUNITID",
-        "Id": 61457,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "SYSTARGETSCALEUNITID",
-        "Id": 61458,
-        "Type": "string",
-        "Value": ""
-      },
-      {
-        "Name": "RecId",
-        "Id": 65534,
-        "Type": "int64",
-        "Value": 5637144577
-      },
-      {
-        "Name": "TableId",
-        "Id": 65535,
-        "Type": "int",
-        "Value": 1902
-      }
-    ]
+    "Fields": {
+      "DefaultAdjustmentTypeCode": "",
+      "UserLocType": "USER",
+      "ASNMissingItemCode": "ASN",
+      "AutoCleanEmptyLoadManifest": 0,
+      "AutoCreateLoad": 0,
+      "AutoCreateLoadPO": 0,
+      "AutoCreateLoadTO": 0,
+      "BarcodeSetupId": "",
+      "BOLNoteType": "",
+      "ConsolidateLoads": 0,
+      "ContainerizationLog": 1,
+      "CustFilterCode": ";;;;;;;;;",
+      "CycleCountAdjustmentTypeCode": "Cycle Count",
+      "CycleCountWorkPriority": 50,
+      "DisplayCreditMaxCheckDialog": 0,
+      "DefaultCycleCountWorkClassId": "CCount",
+      "DefaultLabelReportName": "",
+      "DefaultLPUOM": "",
+      "DefaultReturnJournal": "WHS",
+      "DefaultStatusId": "Available",
+      "DefaultStatusOnSOTO": 1,
+      "DefaultWhseTransJournal": "ITrf",
+      "EnableCustFilters": 0,
+      "EnableVendFilters": 0,
+      "ExecuteWaveInBatch": 1,
+      "FilterWildcard": "",
+      "FulfillmentRate": 0.0,
+      "FulfillmentType": 0,
+      "GenericWorkUserId": "RF Gen",
+      "LabelFormat": "",
+      "LoadNoteType": "",
+      "LoadPlanning": 0,
+      "LoadSynchronizationPolicy": 0,
+      "NumDaysToMix": 0,
+      "PackingLocType": "",
+      "PackingLocationType": "PACK",
+      "PackingScreenNoteType": "Note",
+      "ParametersKey": 0,
+      "PrintSettings": [],
+      "ReportFileName": "",
+      "RetainTmpWorkTable": 1,
+      "RFErrorRecords": 100,
+      "RFNoteType": "Note",
+      "RFSessionLogging": 1,
+      "ScannedQtyLimit": 100000.0,
+      "ShipFinalLocType": "BAYDOOR",
+      "ShipPickListNoteType": "",
+      "StageLocType": "STAGE",
+      "ToteReuse": 0,
+      "UCCCompanyPrefix": "GS1",
+      "UnregisterAtWorkCancel": 0,
+      "VendFilterCode": ";;;;;;;;;",
+      "WaveBatchGroup": "",
+      "WaveExecutionHistoryLog": 1,
+      "WaveLockWait": 60000,
+      "WorkCreateHistoryLog": 1,
+      "WorkCreateHistoryLogUntilDate": "1900-01-01T00:00:00Z",
+      "WorkPriority": 50,
+      "EnableOrderLoadHistory": 0,
+      "EnableWarehouseLoadHistory": 0,
+      "WaveProgressLog": 1,
+      "FulfillmentErrorTolerance": 0,
+      "DefaultFreightCounted": 0,
+      "DefaultTrailerLoaded": 0,
+      "DefaultContainerTypeCode": "",
+      "CreatePendingAllocationLog": 0,
+      "FulfillmentRateCheck": 0,
+      "SalesOrderFulfillmentPolicy": 0,
+      "TransferOrderFulfillmentPolicy": 0,
+      "TransferOrderReceivingProcess": 0,
+      "EnableSystemDirectedWorkSequencing": 1,
+      "EnableWaveStepCode": 1,
+      "WorkProcessingPolicyName": "",
+      "WaveLabelBOLNumGen": 0,
+      "SortingLocationType": "",
+      "EnableBlockingReasons": 0,
+      "AllowMultipleProductReceiptsForLoad": 0,
+      "HMIMMultimodalDGRegCode": "",
+      "HMIMCarrOfMerchByRoadGroupProduct": 0,
+      "HMIMHazardousMaterialGroupDesc": "",
+      "HMIMDomesticLanguage": "",
+      "HMIMExportLanguage": "",
+      "HMIMStockListLimitsRegCode": "",
+      "EnablePurchaseOrderRegistrationInExternalReview": 0,
+      "HMIMWarning": "",
+      "HMIMFooterMsg": "",
+      "TransitWarehouseLicensePlatePolicy": 0,
+      "HMIMDefaultRegCode": "",
+      "LicensePlateTrackingValidation": 0,
+      "WaveBatchDisableNotifications": 0,
+      "EnableLicensePlateReceivingHistory": 0,
+      "EnableReleaseToWarehouseErrorOnBatchFailure": 0,
+      "LocationDistanceCalculationEngine": 0,
+      "GS1FNC1Character": "",
+      "GS1DataMatrixCharacter": "",
+      "GS1QRCodeCharacter": "",
+      "GS1GroupSeparator": "",
+      "GS1IdentifierMaxLength": 0,
+      "PutLocationDirectiveLockWait": 0,
+      "PutLocationDirectiveConcStrictness": 0,
+      "SkipDefaultItemStatus": 0,
+      "HMIMEMSCode": "",
+      "NonHMIMMaterialGroupDescription": "",
+      "BillOfLadingFooterText": "",
+      "EnableRSATForMobile": 0,
+      "modifiedDateTime": "2022-11-07T14:19:15Z",
+      "dEL_ModifiedTime": 0,
+      "modifiedBy": "Admin",
+      "modifiedTransactionId": 0,
+      "createdDateTime": "1900-01-01T00:00:00Z",
+      "dEL_CreatedTime": 0,
+      "createdBy": "",
+      "createdTransactionId": 0,
+      "dataAreaId": "usmf",
+      "sequenceNum": 2928,
+      "recVersion": 1791995293,
+      "unionAllBranchId": 0,
+      "rowNumber": 0,
+      "relationType": 0,
+      "Partition": 5637144576,
+      "sysSharingDataAreaId": "",
+      "sysSharingMasterRecid": 0,
+      "SYSSCALEUNITID": "",
+      "SYSTARGETSCALEUNITID": "",
+      "RecId": 5637144577,
+      "TableId": 1902
+    }
   }
 }
