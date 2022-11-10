@@ -9,9 +9,30 @@
       "InventSiteId": "2",
       "LocDirHintCode": "",
       "LocDirName": "24 PO Direct",
-      "LocDirQuery": [
-        "SgEvJzUANgAzADcAMQA0ADQANQA3ADcAAAARAAHoAxYANQA2ADMANwAxADQANAA1ADcANwAA\nAM3JQABXAEEAWAAzAAAA5kmTAAAACk39AwAAAACEBFAAdQByAGMAaABUAGEAYgBsAGUAAAAR\nAAHoAxYAUAB1AHIAYwBoAFQAYQBiAGwAZQAAAOIJFgBQAHUAcgBjAGgAVABhAGIAbABlAAAA\nCU34AwAAAACSBAIAEQABAAD///////+EBFAAdQByAGMAaABMAGkAbgBlAAAAEQAB6AMUAFAA\ndQByAGMAaABMAGkAbgBlAAAA4gkUAFAAdQByAGMAaABMAGkAbgBlAAAACU35AwAA3xkBAACS\nBAIAEQABAAD/////hgRJAG4AdgBlAG4AdABUAHIAYQBuAHMASQBkAAAAEQAB6AMcAEkAbgB2\nAGUAbgB0AFQAcgBhAG4AcwBJAGQAAADiCRQAUAB1AHIAYwBoAEwAaQBuAGUAAADWDRQAUAB1\nAHIAYwBoAEwAaQBuAGUAAADjCRwASQBuAHYAZQBuAHQAVAByAGEAbgBzAEkAZAAAAMQZAgAA\nAAAAAf//hARJAG4AdgBlAG4AdABUAGEAYgBsAGUAAAARAAHoAxgASQBuAHYAZQBuAHQAVABh\nAGIAbABlAAAA4gkYAEkAbgB2AGUAbgB0AFQAYQBiAGwAZQAAAAlN+gMAAN8ZAQAAkgQCABEA\nAQAA////////hARXAEgAUwBJAG4AdgBlAG4AdABUAGEAYgBsAGUAAAARAAHoAx4AVwBIAFMA\nSQBuAHYAZQBuAHQAVABhAGIAbABlAAAA4gkeAFcASABTAEkAbgB2AGUAbgB0AFQAYQBiAGwA\nZQAAAAlN/AMAAN8ZAQAAkgQCABEAAQAA//////////+PBP//AAAAAAAAAP//jwT//wAAAAAA\nAAD//48E//8AAAAAAAAA//+bBP//mgT//wFQAHUAcgBjAGgAVABhAGIAbABlAAAAUAB1AHIA\nYwBoAEkAZAAAAAAA+AMAAAAAAAAAAQAAAAAAAAH/////AJAFAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAA"
-      ],
+      "LocDirQuery": {
+        "table": "PurchTable",
+        "links": [],
+        "joins": [
+          {
+            "table": "PurchLine",
+            "ranges": [
+              {
+                "field": "InventTransId"
+              }
+            ],
+            "joins": [
+              {
+                "table": "InventTable",
+                "joins": [
+                  {
+                    "table": "WHSInventTable"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
       "LocSeqNum": 2,
       "MultiSKU": 0,
       "WorkTransType": 1,

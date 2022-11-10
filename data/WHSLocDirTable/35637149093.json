@@ -9,9 +9,32 @@
       "InventSiteId": "3",
       "LocDirHintCode": "",
       "LocDirName": "34 Batch order PutAway",
-      "LocDirQuery": [
-        "SgEvJzMANQA2ADMANwAxADQAOQAwADkAMwAAABEAAegDGAAzADUANgAzADcAMQA0ADkAMAA5\nADMAAADNCRIAQABXAEEAWAA1ADcAMAA1AAAA5knXAAAACk36AwAAAACEBFAAcgBvAGQAVABh\nAGIAbABlAAAAEQAB6AMUAFAAcgBvAGQAVABhAGIAbABlAAAA4gkUAFAAcgBvAGQAVABhAGIA\nbABlAAAACU3yAwAAAACSBAIAEQABAAD/////hgRJAG4AdgBlAG4AdABUAHIAYQBuAHMASQBk\nAAAAEQAB6AMcAEkAbgB2AGUAbgB0AFQAcgBhAG4AcwBJAGQAAADiCRQAUAByAG8AZABUAGEA\nYgBsAGUAAADjCRwASQBuAHYAZQBuAHQAVAByAGEAbgBzAEkAZAAAAMQZAgAAAAAAAf//hARQ\nAG0AZgBQAHIAbwBkAEMAbwBCAHkAAAARAAHoAxgAUABtAGYAUAByAG8AZABDAG8AQgB5AAAA\n4gkYAFAAbQBmAFAAcgBvAGQAQwBvAEIAeQAAAAlN9wMAANkZANEZAt8ZAQAAkgQCABEAAQAA\n////////hARJAG4AdgBlAG4AdABUAGEAYgBsAGUAAAARAAHoAxgASQBuAHYAZQBuAHQAVABh\nAGIAbABlAAAA4gkYAEkAbgB2AGUAbgB0AFQAYQBiAGwAZQAAAAlN+AMAANkZANEZAgAAkgQC\nABEAAQAA////////hARXAEgAUwBJAG4AdgBlAG4AdABUAGEAYgBsAGUAAAARAAHoAx4AVwBI\nAFMASQBuAHYAZQBuAHQAVABhAGIAbABlAAAA4gkeAFcASABTAEkAbgB2AGUAbgB0AFQAYQBi\nAGwAZQAAAAlN+QMAANkZAAAAkgQCABEAAQAA//////////+PBP//AAAAAAAAAP//jwT//wAA\nAAAAAAD//48E//8AAAAAAAAA//+bBP//mgT//wAAAAAAAAH/////AJAFAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAA"
-      ],
+      "LocDirQuery": {
+        "table": "ProdTable",
+        "links": [],
+        "ranges": [
+          {
+            "field": "InventTransId"
+          }
+        ],
+        "joins": [
+          {
+            "table": "PmfProdCoBy",
+            "joins": [
+              {
+                "table": "InventTable",
+                "links": [],
+                "joins": [
+                  {
+                    "table": "WHSInventTable",
+                    "links": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
       "LocSeqNum": 1,
       "MultiSKU": 0,
       "WorkTransType": 16,

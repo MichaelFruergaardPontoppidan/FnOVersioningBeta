@@ -9,9 +9,30 @@
       "InventSiteId": "2",
       "LocDirHintCode": "Baydoor",
       "LocDirName": "24 SO Put Mixed",
-      "LocDirQuery": [
-        "SgEvJzUANgAzADcAMQA0ADUAMwAyADkAAAARAAHoAxYANQA2ADMANwAxADQANQAzADIAOQAA\nAM0JFABAAFMAWQBTADUANAA0ADQAMQAAAOZJowAAAApNAgQAAAAAhARTAGEAbABlAHMAVABh\nAGIAbABlAAAAEQAB6AMWAFMAYQBsAGUAcwBUAGEAYgBsAGUAAADiCRYAUwBhAGwAZQBzAFQA\nYQBiAGwAZQAAAAlN/QMAAAAAkgQCABEAAQAA////////hARTAGEAbABlAHMATABpAG4AZQAA\nABEAAegDFABTAGEAbABlAHMATABpAG4AZQAAAOIJFABTAGEAbABlAHMATABpAG4AZQAAAAlN\n/gMAAN8ZAQAAkgQCABEAAQAA/////4YESQBuAHYAZQBuAHQAVAByAGEAbgBzAEkAZAAAABEA\nAegDHABJAG4AdgBlAG4AdABUAHIAYQBuAHMASQBkAAAA4gkUAFMAYQBsAGUAcwBMAGkAbgBl\nAAAA4wkcAEkAbgB2AGUAbgB0AFQAcgBhAG4AcwBJAGQAAADEGQIAAAAAAAH//4QESQBuAHYA\nZQBuAHQAVABhAGIAbABlAAAAEQAB6AMYAEkAbgB2AGUAbgB0AFQAYQBiAGwAZQAAAOIJGABJ\nAG4AdgBlAG4AdABUAGEAYgBsAGUAAAAJTf8DAADfGQEAAJIEAgARAAEAAP///////4QEVwBI\nAFMASQBuAHYAZQBuAHQAVABhAGIAbABlAAAAEQAB6AMeAFcASABTAEkAbgB2AGUAbgB0AFQA\nYQBiAGwAZQAAAOIJHgBXAEgAUwBJAG4AdgBlAG4AdABUAGEAYgBsAGUAAAAJTQEEAADfGQEA\nAJIEAgARAAEAAP//////////jwT//wAAAAAAAAD//48E//8AAAAAAAAA//+PBP//AAAAAAAA\nAP//mwT//5oE//8AAAAAAAAB/////wCQBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAA=="
-      ],
+      "LocDirQuery": {
+        "table": "SalesTable",
+        "links": [],
+        "joins": [
+          {
+            "table": "SalesLine",
+            "ranges": [
+              {
+                "field": "InventTransId"
+              }
+            ],
+            "joins": [
+              {
+                "table": "InventTable",
+                "joins": [
+                  {
+                    "table": "WHSInventTable"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
       "LocSeqNum": 4,
       "MultiSKU": 1,
       "WorkTransType": 2,

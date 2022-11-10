@@ -7,9 +7,19 @@
       "AllowNegative": 0,
       "BatchEnabled": 0,
       "LocDirName": "General",
-      "LocDirQuery": [
-        "SgEvJzMANQA2ADMANwAxADQANQAzADQANQB8ADAAAAARAAHoAxwAMwA1ADYAMwA3ADEANAA1\nADMANAA1AHwAMAAAAOZJoAAAAApN9wMAAAAAhARXAE0AUwBMAG8AYwBhAHQAaQBvAG4AAAAR\nAAHoAxgAVwBNAFMATABvAGMAYQB0AGkAbwBuAAAA4gkYAFcATQBTAEwAbwBjAGEAdABpAG8A\nbgAAAAlN6AMAAAAAkgQCABEAAQAA/////4YEdwBNAFMATABvAGMAYQB0AGkAbwBuAEkAZAAA\nABEAAegDHAB3AE0AUwBMAG8AYwBhAHQAaQBvAG4ASQBkAAAA4gkYAFcATQBTAEwAbwBjAGEA\ndABpAG8AbgAAAOMJHAB3AE0AUwBMAG8AYwBhAHQAaQBvAG4ASQBkAAAAAAAAAAABhgRpAG4A\ndgBlAG4AdABMAG8AYwBhAHQAaQBvAG4ASQBkAAAAEQAB6AMiAGkAbgB2AGUAbgB0AEwAbwBj\nAGEAdABpAG8AbgBJAGQAAADiCRgAVwBNAFMATABvAGMAYQB0AGkAbwBuAAAA4wkiAGkAbgB2\nAGUAbgB0AEwAbwBjAGEAdABpAG8AbgBJAGQAAADaaTUAMQAAAMQZAQAAAAAAAf////+bBP//\nmgT//wAAAAAAAAH/////AJAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-      ],
+      "LocDirQuery": {
+        "table": "WMSLocation",
+        "links": [],
+        "ranges": [
+          {
+            "field": "wMSLocationId"
+          },
+          {
+            "field": "inventLocationId",
+            "value": "51"
+          }
+        ]
+      },
       "LocDirStrategy": 0,
       "LocSeqNum": 1,
       "RefRecId": 35637145345,

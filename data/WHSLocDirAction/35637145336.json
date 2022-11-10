@@ -7,9 +7,35 @@
       "AllowNegative": 0,
       "BatchEnabled": 0,
       "LocDirName": "Bulk for pallets",
-      "LocDirQuery": [
-        "SgEvJzMANQA2ADMANwAxADQANQAzADMANQB8ADMANQA2ADMANwAxADQANQAzADMANgAAABEA\nAegDMAAzADUANgAzADcAMQA0ADUAMwAzADUAfAAzADUANgAzADcAMQA0ADUAMwAzADYAAADm\nSaEAAAAKTfcDAAAAAIQEVwBNAFMATABvAGMAYQB0AGkAbwBuAAAAEQAB6AMYAFcATQBTAEwA\nbwBjAGEAdABpAG8AbgAAAOIJGABXAE0AUwBMAG8AYwBhAHQAaQBvAG4AAAAJTegDAAAAAJIE\nAgARAAEAAP////+GBGkAbgB2AGUAbgB0AEwAbwBjAGEAdABpAG8AbgBJAGQAAAARAAHoAyIA\naQBuAHYAZQBuAHQATABvAGMAYQB0AGkAbwBuAEkAZAAAAOIJGABXAE0AUwBMAG8AYwBhAHQA\naQBvAG4AAADWDRgAVwBNAFMATABvAGMAYQB0AGkAbwBuAAAA4wkiAGkAbgB2AGUAbgB0AEwA\nbwBjAGEAdABpAG8AbgBJAGQAAADaaTYAMQAAAMQZAQAAAAAAAf//hARJAG4AdgBlAG4AdABE\nAGkAbQAAABEAAegDFABJAG4AdgBlAG4AdABEAGkAbQAAAOIJFABJAG4AdgBlAG4AdABEAGkA\nbQAAAAlN6QMAANkZAN8ZAQAAkgQCABEAAQAA////////hARJAG4AdgBlAG4AdABTAHUAbQAA\nABEAAegDFABJAG4AdgBlAG4AdABTAHUAbQAAAOIJFABJAG4AdgBlAG4AdABTAHUAbQAAAAlN\n6gMAANkZAN8ZAQAAkgQCABEAAQAA/////4YEUABoAHkAcwBpAGMAYQBsAEkAbgB2AGUAbgB0\nAAAAEQAB6AMeAFAAaAB5AHMAaQBjAGEAbABJAG4AdgBlAG4AdAAAAOIJFABJAG4AdgBlAG4A\ndABTAHUAbQAAANYNFABJAG4AdgBlAG4AdABTAHUAbQAAAOMJHgBQAGgAeQBzAGkAYwBhAGwA\nSQBuAHYAZQBuAHQAAADaaT4AMAAAAMQZAQAAAAAAAYYESQB0AGUAbQBJAGQAAAARAAHo40kA\ndABlAG0ASQBkAAAA4gkUAEkAbgB2AGUAbgB0AFMAdQBtAAAA1g0UAEkAbgB2AGUAbgB0AFMA\ndQBtAAAA4+lJAHQAZQBtAEkAZAAAAAAAAAAAAf////+PBP//AAAAAAAAAP//jwT//wAAAAAA\nAAD//5sE//+aBP//AVcATQBTAEwAbwBjAGEAdABpAG8AbgAAAEwAbwBjAFAAcgBvAGYAaQBs\nAGUASQBkAAAAQgBVAEwASwAtADAANgAAAOgDAAAAAAAAAAEAAAAAAAAB/////wCQBQAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
-      ],
+      "LocDirQuery": {
+        "table": "WMSLocation",
+        "links": [],
+        "ranges": [
+          {
+            "field": "inventLocationId",
+            "value": "61"
+          }
+        ],
+        "joins": [
+          {
+            "table": "InventDim",
+            "joins": [
+              {
+                "table": "InventSum",
+                "ranges": [
+                  {
+                    "field": "PhysicalInvent",
+                    "value": ">0"
+                  },
+                  {
+                    "field": "ItemId"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
       "LocDirStrategy": 0,
       "LocSeqNum": 1,
       "RefRecId": 35637145335,

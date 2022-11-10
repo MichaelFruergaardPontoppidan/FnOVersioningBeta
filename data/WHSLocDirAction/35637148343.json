@@ -7,9 +7,38 @@
       "AllowNegative": 0,
       "BatchEnabled": 0,
       "LocDirName": "Pick",
-      "LocDirQuery": [
-        "SgEvJzMANQA2ADMANwAxADQAOAAzADQAMgB8ADAAAAARAAHoAxwAMwA1ADYAMwA3ADEANAA4\nADMANAAyAHwAMAAAAOZJnwAAAApN9wMAAAAAhARXAE0AUwBMAG8AYwBhAHQAaQBvAG4AAAAR\nAAHoAxgAVwBNAFMATABvAGMAYQB0AGkAbwBuAAAA4gkYAFcATQBTAEwAbwBjAGEAdABpAG8A\nbgAAAAlN6AMAAAAAkgQCABEAAQAA/////4YEdwBNAFMATABvAGMAYQB0AGkAbwBuAEkAZAAA\nABEAAegDHAB3AE0AUwBMAG8AYwBhAHQAaQBvAG4ASQBkAAAA4gkYAFcATQBTAEwAbwBjAGEA\ndABpAG8AbgAAAOMJHAB3AE0AUwBMAG8AYwBhAHQAaQBvAG4ASQBkAAAAAAAAAAABhgRpAG4A\ndgBlAG4AdABMAG8AYwBhAHQAaQBvAG4ASQBkAAAAEQAB6AMiAGkAbgB2AGUAbgB0AEwAbwBj\nAGEAdABpAG8AbgBJAGQAAADiCRgAVwBNAFMATABvAGMAYQB0AGkAbwBuAAAA4wkiAGkAbgB2\nAGUAbgB0AEwAbwBjAGEAdABpAG8AbgBJAGQAAADaaTUAMQAAAMQZAQAAAAAAAf//hARJAG4A\ndgBlAG4AdABEAGkAbQAAABEAAegDFABJAG4AdgBlAG4AdABEAGkAbQAAAOIJFABJAG4AdgBl\nAG4AdABEAGkAbQAAAAlN6QMAANkZAN8ZAQAAkgQCABEAAQAA////////hARJAG4AdgBlAG4A\ndABTAHUAbQAAABEAAegDFABJAG4AdgBlAG4AdABTAHUAbQAAAOIJFABJAG4AdgBlAG4AdABT\nAHUAbQAAAAlN6gMAANkZAN8ZAQAAkgQCABEAAQAA/////4YEUABoAHkAcwBpAGMAYQBsAEkA\nbgB2AGUAbgB0AAAAEQAB6AMeAFAAaAB5AHMAaQBjAGEAbABJAG4AdgBlAG4AdAAAAOIJFABJ\nAG4AdgBlAG4AdABTAHUAbQAAAOMJHgBQAGgAeQBzAGkAYwBhAGwASQBuAHYAZQBuAHQAAADa\naT4AMAAAAMQZAQAAAAAAAYYESQB0AGUAbQBJAGQAAAARAAHo40kAdABlAG0ASQBkAAAA4gkU\nAEkAbgB2AGUAbgB0AFMAdQBtAAAA4+lJAHQAZQBtAEkAZAAAAAAAAAAAAf////+PBP//AAAA\nAAAAAP//jwT//wAAAAAAAAD//5sE//+aBP//AAAAAAAAAf////8AkAUAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAA="
-      ],
+      "LocDirQuery": {
+        "table": "WMSLocation",
+        "links": [],
+        "ranges": [
+          {
+            "field": "wMSLocationId"
+          },
+          {
+            "field": "inventLocationId",
+            "value": "51"
+          }
+        ],
+        "joins": [
+          {
+            "table": "InventDim",
+            "joins": [
+              {
+                "table": "InventSum",
+                "ranges": [
+                  {
+                    "field": "PhysicalInvent",
+                    "value": ">0"
+                  },
+                  {
+                    "field": "ItemId"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
       "LocDirStrategy": 0,
       "LocSeqNum": 1,
       "RefRecId": 35637148342,

@@ -9,9 +9,30 @@
       "InventSiteId": "5",
       "LocDirHintCode": "Stage",
       "LocDirName": "51 Put to stage multi",
-      "LocDirQuery": [
-        "SgEvJzMANQA2ADMANwAxADUAMgAxADAANQAAABEAAegDGAAzADUANgAzADcAMQA1ADIAMQAw\nADUAAADNCRQAQABTAFkAUwA1ADQANAA0ADEAAADmSbQAAAAKTQIEAACGKwAAjCsAAIgrAACL\nKwAAAACEBFMAYQBsAGUAcwBUAGEAYgBsAGUAAAARAAHoAxYAUwBhAGwAZQBzAFQAYQBiAGwA\nZQAAAOIJFgBTAGEAbABlAHMAVABhAGIAbABlAAAACU39AwAAAACSBAIAEQABAAD///////+E\nBFMAYQBsAGUAcwBMAGkAbgBlAAAAEQAB6AMUAFMAYQBsAGUAcwBMAGkAbgBlAAAA4gkUAFMA\nYQBsAGUAcwBMAGkAbgBlAAAACU3+AwAA2RkA0RkC3xkBAACSBAIAEQABAAD/////hgRJAG4A\ndgBlAG4AdABUAHIAYQBuAHMASQBkAAAAEQAB6AMcAEkAbgB2AGUAbgB0AFQAcgBhAG4AcwBJ\nAGQAAADiCRQAUwBhAGwAZQBzAEwAaQBuAGUAAADjCRwASQBuAHYAZQBuAHQAVAByAGEAbgBz\nAEkAZAAAAMQZAgAAAAAAAf//hARJAG4AdgBlAG4AdABUAGEAYgBsAGUAAAARAAHoAxgASQBu\nAHYAZQBuAHQAVABhAGIAbABlAAAA4gkYAEkAbgB2AGUAbgB0AFQAYQBiAGwAZQAAAAlN/wMA\nANkZANEZAt8ZAQAAkgQCABEAAQAA////////hARXAEgAUwBJAG4AdgBlAG4AdABUAGEAYgBs\nAGUAAAARAAHoAx4AVwBIAFMASQBuAHYAZQBuAHQAVABhAGIAbABlAAAA4gkeAFcASABTAEkA\nbgB2AGUAbgB0AFQAYQBiAGwAZQAAAAlNAQQAANkZANEZAt8ZAQAAkgQCABEAAQAA////////\n//+PBP//AAAAAAAAAP//jwT//wAAAAAAAAD//48E//8AAAAAAAAA//+bBP//mgT//wAAAAAA\nAAH/////AJAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-      ],
+      "LocDirQuery": {
+        "table": "SalesTable",
+        "links": [],
+        "joins": [
+          {
+            "table": "SalesLine",
+            "ranges": [
+              {
+                "field": "InventTransId"
+              }
+            ],
+            "joins": [
+              {
+                "table": "InventTable",
+                "joins": [
+                  {
+                    "table": "WHSInventTable"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
       "LocSeqNum": 21,
       "MultiSKU": 1,
       "WorkTransType": 2,

@@ -9,9 +9,15 @@
       "InventSiteId": "5",
       "LocDirHintCode": "",
       "LocDirName": "51 Move",
-      "LocDirQuery": [
-        "SgEvJzMANQA2ADMANwAxADQANQAzADQANQAAABEAAegDGAAzADUANgAzADcAMQA0ADUAMwA0\nADUAAADmSSMAAAAKTeoDAAAAAIQESQBuAHYAZQBuAHQAVABhAGIAbABlAAAAEQAB6AMcAEkA\nbgB2AGUAbgB0AFQAYQBiAGwAZQBfADEAAADiCRgASQBuAHYAZQBuAHQAVABhAGIAbABlAAAA\nCU3oAwAAAACSBAIAEQABAAD///////+EBFcASABTAEkAbgB2AGUAbgB0AFQAYQBiAGwAZQAA\nABEAAegDHgBXAEgAUwBJAG4AdgBlAG4AdABUAGEAYgBsAGUAAADiCR4AVwBIAFMASQBuAHYA\nZQBuAHQAVABhAGIAbABlAAAACU3pAwAA2RkA3xkBAACSBAIAEQABAAD//////////48E//8A\nAAAAAAAA//+bBP//mgT//wAAAAAAAAH/////AJAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAA"
-      ],
+      "LocDirQuery": {
+        "table": "InventTable",
+        "links": [],
+        "joins": [
+          {
+            "table": "WHSInventTable"
+          }
+        ]
+      },
       "LocSeqNum": 2,
       "MultiSKU": 0,
       "WorkTransType": 7,

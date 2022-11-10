@@ -9,9 +9,30 @@
       "InventSiteId": "6",
       "LocDirHintCode": "",
       "LocDirName": "62 Pick",
-      "LocDirQuery": [
-        "SgEvJzMANQA2ADMANwAxADUAMgA4ADUAOAAAABEAAegDGAAzADUANgAzADcAMQA1ADIAOAA1\nADgAAADNyUAAVwBBAFgAOQAAAOZJAwAAAApN7AMAAIYrAACMKwAAiCsAAIsrAAB+RQ8AAAAA\nAIQESQBuAHYAZQBuAHQAVAByAGEAbgBzAGYAZQByAFQAYQBiAGwAZQAAABEAAegDKABJAG4A\ndgBlAG4AdABUAHIAYQBuAHMAZgBlAHIAVABhAGIAbABlAAAA4gkoAEkAbgB2AGUAbgB0AFQA\ncgBhAG4AcwBmAGUAcgBUAGEAYgBsAGUAAAAJTegDAAAAAJIEAgARAAEAAP///////4QESQBu\nAHYAZQBuAHQAVAByAGEAbgBzAGYAZQByAEwAaQBuAGUAAAARAAHoAyYASQBuAHYAZQBuAHQA\nVAByAGEAbgBzAGYAZQByAEwAaQBuAGUAAADiCSYASQBuAHYAZQBuAHQAVAByAGEAbgBzAGYA\nZQByAEwAaQBuAGUAAAAJTekDAADZGQDRGQLfGQEAAJIEAgARAAEAAP////+GBEkAbgB2AGUA\nbgB0AFQAcgBhAG4AcwBJAGQAVAByAGEAbgBzAGkAdABGAHIAbwBtAAAAEQAB6AMyAEkAbgB2\nAGUAbgB0AFQAcgBhAG4AcwBJAGQAVAByAGEAbgBzAGkAdABGAHIAbwBtAAAA4gkmAEkAbgB2\nAGUAbgB0AFQAcgBhAG4AcwBmAGUAcgBMAGkAbgBlAAAA4wkyAEkAbgB2AGUAbgB0AFQAcgBh\nAG4AcwBJAGQAVAByAGEAbgBzAGkAdABGAHIAbwBtAAAAxBkCAAAAAAAB//+EBEkAbgB2AGUA\nbgB0AFQAYQBiAGwAZQAAABEAAegDGABJAG4AdgBlAG4AdABUAGEAYgBsAGUAAADiCRgASQBu\nAHYAZQBuAHQAVABhAGIAbABlAAAACU3qAwAA2RkA0RkC3xkBAACSBAIAEQABAAD///////+E\nBFcASABTAEkAbgB2AGUAbgB0AFQAYQBiAGwAZQAAABEAAegDHgBXAEgAUwBJAG4AdgBlAG4A\ndABUAGEAYgBsAGUAAADiCR4AVwBIAFMASQBuAHYAZQBuAHQAVABhAGIAbABlAAAACU3rAwAA\n2RkA0RkC3xkBAACSBAIAEQABAAD//////////48E//8AAAAAAAAA//+PBP//AAAAAAAAAP//\njwT//wAAAAAAAAD//5sE//+aBP//AAAAAAAAAf////8AkAUAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAA="
-      ],
+      "LocDirQuery": {
+        "table": "InventTransferTable",
+        "links": [],
+        "joins": [
+          {
+            "table": "InventTransferLine",
+            "ranges": [
+              {
+                "field": "InventTransIdTransitFrom"
+              }
+            ],
+            "joins": [
+              {
+                "table": "InventTable",
+                "joins": [
+                  {
+                    "table": "WHSInventTable"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
       "LocSeqNum": 7,
       "MultiSKU": 0,
       "WorkTransType": 5,

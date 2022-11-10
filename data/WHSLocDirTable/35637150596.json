@@ -9,9 +9,57 @@
       "InventSiteId": "5",
       "LocDirHintCode": "",
       "LocDirName": "51 QMS",
-      "LocDirQuery": [
-        "SgEvJzMANQA2ADMANwAxADUAMAA1ADkANgAAABEAAegDGAAzADUANgAzADcAMQA1ADAANQA5\nADYAAADNyUAAVwBBAFgAMwAAAOZJkQAAAApN/gMAAAAAhARQAHUAcgBjAGgAVABhAGIAbABl\nAAAAEQAB6AMWAFAAdQByAGMAaABUAGEAYgBsAGUAAADiCRYAUAB1AHIAYwBoAFQAYQBiAGwA\nZQAAAAlN+AMAAAAAkgQCABEAAQAA////////hARQAHUAcgBjAGgATABpAG4AZQAAABEAAegD\nFABQAHUAcgBjAGgATABpAG4AZQAAAOIJFABQAHUAcgBjAGgATABpAG4AZQAAAAlN+QMAANkZ\nANEZAt8ZAQAAkgQCABEAAQAA/////4YESQBuAHYAZQBuAHQAVAByAGEAbgBzAEkAZAAAABEA\nAegDHABJAG4AdgBlAG4AdABUAHIAYQBuAHMASQBkAAAA4gkUAFAAdQByAGMAaABMAGkAbgBl\nAAAA1g0UAFAAdQByAGMAaABMAGkAbgBlAAAA4wkcAEkAbgB2AGUAbgB0AFQAcgBhAG4AcwBJ\nAGQAAADEGQIAAAAAAAH//4QESQBuAHYAZQBuAHQAVABhAGIAbABlAAAAEQAB6AMYAEkAbgB2\nAGUAbgB0AFQAYQBiAGwAZQAAAOIJGABJAG4AdgBlAG4AdABUAGEAYgBsAGUAAAAJTfoDAADZ\nGQDRGQLfGQEAAJIEAgARAAEAAP///////4QEVwBIAFMASQBuAHYAZQBuAHQAVABhAGIAbABl\nAAAAEQAB6AMeAFcASABTAEkAbgB2AGUAbgB0AFQAYQBiAGwAZQAAAOIJHgBXAEgAUwBJAG4A\ndgBlAG4AdABUAGEAYgBsAGUAAAAJTfwDAADZGQDRGQLfGQEAAJIEAgARAAEAAP//////////\njwT//wAAAAAAAAD//48E//8AAAAAAAAAhARJAG4AdgBlAG4AdABRAHUAYQBsAGkAdAB5AE8A\ncgBkAGUAcgBUAGEAYgBsAGUAAAARAAHoAzQASQBuAHYAZQBuAHQAUQB1AGEAbABpAHQAeQBP\nAHIAZABlAHIAVABhAGIAbABlAF8AMQAAAOIJMABJAG4AdgBlAG4AdABRAHUAYQBsAGkAdAB5\nAE8AcgBkAGUAcgBUAGEAYgBsAGUAAAAJTf0DAADZGQDRGQIAAJIEAgARAAEAAP////+GBFIA\nZQBmAGUAcgBlAG4AYwBlAFQAeQBwAGUAAAARAAHoAxwAUgBlAGYAZQByAGUAbgBjAGUAVAB5\nAHAAZQAAAOIJMABJAG4AdgBlAG4AdABRAHUAYQBsAGkAdAB5AE8AcgBkAGUAcgBUAGEAYgBs\nAGUAAADWDTAASQBuAHYAZQBuAHQAUQB1AGEAbABpAHQAeQBPAHIAZABlAHIAVABhAGIAbABl\nAAAA4wkcAFIAZQBmAGUAcgBlAG4AYwBlAFQAeQBwAGUAAADaSTIAAADEGQIAAAEAAAGGBE8A\ncgBkAGUAcgBTAHQAYQB0AHUAcwAAABEAAegDGABPAHIAZABlAHIAUwB0AGEAdAB1AHMAAADi\nCTAASQBuAHYAZQBuAHQAUQB1AGEAbABpAHQAeQBPAHIAZABlAHIAVABhAGIAbABlAAAA1g0w\nAEkAbgB2AGUAbgB0AFEAdQBhAGwAaQB0AHkATwByAGQAZQByAFQAYQBiAGwAZQAAAOMJGABP\nAHIAZABlAHIAUwB0AGEAdAB1AHMAAADaSTAAAAAAAAAAAAH/////jwSQBFAAdQByAGMAaABM\nAGkAbgBlAAAASQBuAHYAZQBuAHQAUQB1AGEAbABpAHQAeQBPAHIAZABlAHIAVABhAGIAbABl\nAAAAbgB1AGwAbAAAAFAAdQByAGMAaABMAGkAbgBlAAAAUAB1AHIAYwBoAEkAZAAAAEkAbgB2\nAGUAbgB0AFIAZQBmAEkAZAAAAAAAUAB1AHIAYwBoAEwAaQBuAGUAAABJAG4AdgBlAG4AdABR\nAHUAYQBsAGkAdAB5AE8AcgBkAGUAcgBUAGEAYgBsAGUAAACQBFAAdQByAGMAaABMAGkAbgBl\nAAAASQBuAHYAZQBuAHQAUQB1AGEAbABpAHQAeQBPAHIAZABlAHIAVABhAGIAbABlAAAAbgB1\nAGwAbAAAAFAAdQByAGMAaABMAGkAbgBlAAAASQBuAHYAZQBuAHQAVAByAGEAbgBzAEkAZAAA\nAEkAbgB2AGUAbgB0AFIAZQBmAFQAcgBhAG4AcwBJAGQAAAAAAFAAdQByAGMAaABMAGkAbgBl\nAAAASQBuAHYAZQBuAHQAUQB1AGEAbABpAHQAeQBPAHIAZABlAHIAVABhAGIAbABlAAAA//8A\nAAAAAAAA//+PBP//AAAAAAAAAP//mwT//5oE//8BUAB1AHIAYwBoAFQAYQBiAGwAZQAAAFAA\ndQByAGMAaABJAGQAAAAAAPgDAAAAAAAAAAEAAAAAAAAB/////wCQBQAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAA=="
-      ],
+      "LocDirQuery": {
+        "table": "PurchTable",
+        "links": [],
+        "joins": [
+          {
+            "table": "PurchLine",
+            "ranges": [
+              {
+                "field": "InventTransId"
+              }
+            ],
+            "joins": [
+              {
+                "table": "InventTable",
+                "joins": [
+                  {
+                    "table": "WHSInventTable"
+                  }
+                ]
+              },
+              {
+                "table": "InventQualityOrderTable",
+                "links": [
+                  {
+                    "field": "PurchId",
+                    "relatedField": "InventRefId",
+                    "table": "PurchLine",
+                    "relatedTable": "InventQualityOrderTable"
+                  },
+                  {
+                    "field": "InventTransId",
+                    "relatedField": "InventRefTransId",
+                    "table": "PurchLine",
+                    "relatedTable": "InventQualityOrderTable"
+                  }
+                ],
+                "ranges": [
+                  {
+                    "field": "ReferenceType",
+                    "value": "Purchase"
+                  },
+                  {
+                    "field": "OrderStatus",
+                    "value": "Open"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
       "LocSeqNum": 4,
       "MultiSKU": 0,
       "WorkTransType": 1,

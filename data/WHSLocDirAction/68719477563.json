@@ -7,9 +7,54 @@
       "AllowNegative": 0,
       "BatchEnabled": 1,
       "LocDirName": "Pick Batch",
-      "LocDirQuery": [
-        "SgEvJzYAOAA3ADEAOQA0ADcANgA4ADAAOAB8ADYAOAA3ADEAOQA0ADcANwA1ADYAMwAAABEA\nAegDMAA2ADgANwAxADkANAA3ADYAOAAwADgAfAA2ADgANwAxADkANAA3ADcANQA2ADMAAADm\nSQYAAAAKTe0DAACGKwAAjCsAAIgrAACLKwAAfkUPAAAAAACEBFcATQBTAEwAbwBjAGEAdABp\nAG8AbgAAABEAAegDGABXAE0AUwBMAG8AYwBhAHQAaQBvAG4AAADiCRgAVwBNAFMATABvAGMA\nYQB0AGkAbwBuAAAACU3oAwAAAACSBAIAEQABAAD/////hgRpAG4AdgBlAG4AdABMAG8AYwBh\nAHQAaQBvAG4ASQBkAAAAEQAB6AMiAGkAbgB2AGUAbgB0AEwAbwBjAGEAdABpAG8AbgBJAGQA\nAADiCRgAVwBNAFMATABvAGMAYQB0AGkAbwBuAAAA1g0YAFcATQBTAEwAbwBjAGEAdABpAG8A\nbgAAAOMJIgBpAG4AdgBlAG4AdABMAG8AYwBhAHQAaQBvAG4ASQBkAAAA2mk1ADEAAADEGQEA\nAAAAAAGGBHcATQBTAEwAbwBjAGEAdABpAG8AbgBJAGQAAAARAAHoAxwAdwBNAFMATABvAGMA\nYQB0AGkAbwBuAEkAZAAAAOIJGABXAE0AUwBMAG8AYwBhAHQAaQBvAG4AAADWDRgAVwBNAFMA\nTABvAGMAYQB0AGkAbwBuAAAA4wkcAHcATQBTAEwAbwBjAGEAdABpAG8AbgBJAGQAAAAAAAAA\nAAH//4QESQBuAHYAZQBuAHQARABpAG0AAAARAAHoAxQASQBuAHYAZQBuAHQARABpAG0AAADi\nCRQASQBuAHYAZQBuAHQARABpAG0AAAAJTekDAADZGQDfGQEAAJIEAgARAAEAAP///////4QE\nSQBuAHYAZQBuAHQAUwB1AG0AAAARAAHoAxQASQBuAHYAZQBuAHQAUwB1AG0AAADiCRQASQBu\nAHYAZQBuAHQAUwB1AG0AAAAJTeoDAADZGQDfGQEAAJIEAgARAAEAAP////+GBFAAaAB5AHMA\naQBjAGEAbABJAG4AdgBlAG4AdAAAABEAAegDHgBQAGgAeQBzAGkAYwBhAGwASQBuAHYAZQBu\nAHQAAADiCRQASQBuAHYAZQBuAHQAUwB1AG0AAADWDRQASQBuAHYAZQBuAHQAUwB1AG0AAADj\nCR4AUABoAHkAcwBpAGMAYQBsAEkAbgB2AGUAbgB0AAAA2mk+ADAAAADEGQEAAAAAAAGGBEkA\ndABlAG0ASQBkAAAAEQAB6ONJAHQAZQBtAEkAZAAAAOIJFABJAG4AdgBlAG4AdABTAHUAbQAA\nANYNFABJAG4AdgBlAG4AdABTAHUAbQAAAOPpSQB0AGUAbQBJAGQAAAAAAAAAAAH//4QESQBu\nAHYAZQBuAHQARABpAG0AAAARAAHoAxYASQBuAHYAZQBuAHQARABpAG0AMgAAAOIJFABJAG4A\ndgBlAG4AdABEAGkAbQAAAAlN6wMAANkZAN8ZAQAAkgQCABEAAQAA////////hARJAG4AdgBl\nAG4AdABCAGEAdABjAGgAAAARAAHoAxgASQBuAHYAZQBuAHQAQgBhAHQAYwBoAAAA4gkYAEkA\nbgB2AGUAbgB0AEIAYQB0AGMAaAAAAAlN7AMAANkZAN8ZAQAAkgQCABEAAQAA/////4YEaQBu\nAHYAZQBuAHQAQgBhAHQAYwBoAEkAZAAAABEAAegDHABpAG4AdgBlAG4AdABCAGEAdABjAGgA\nSQBkAAAA4gkYAEkAbgB2AGUAbgB0AEIAYQB0AGMAaAAAANYNGABJAG4AdgBlAG4AdABCAGEA\ndABjAGgAAADjCRwAaQBuAHYAZQBuAHQAQgBhAHQAYwBoAEkAZAAAANqpIQA9ACIAIgAAAAAA\nAAAAAf////+PBP//AAAAAAAAAP//jwT//wAAAAAAAAD//48E//8AAAAAAAAA//+PBP//AAAA\nAAAAAP//mwT//5oE//8AAAAAAAAB/////wCQBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAA=="
-      ],
+      "LocDirQuery": {
+        "table": "WMSLocation",
+        "links": [],
+        "ranges": [
+          {
+            "field": "inventLocationId",
+            "value": "51"
+          },
+          {
+            "field": "wMSLocationId"
+          }
+        ],
+        "joins": [
+          {
+            "table": "InventDim",
+            "joins": [
+              {
+                "table": "InventSum",
+                "ranges": [
+                  {
+                    "field": "PhysicalInvent",
+                    "value": ">0"
+                  },
+                  {
+                    "field": "ItemId"
+                  }
+                ],
+                "joins": [
+                  {
+                    "table": "InventDim",
+                    "joins": [
+                      {
+                        "table": "InventBatch",
+                        "ranges": [
+                          {
+                            "field": "inventBatchId",
+                            "value": "!=\"\""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
       "LocDirStrategy": 0,
       "LocSeqNum": 1,
       "RefRecId": 68719476808,

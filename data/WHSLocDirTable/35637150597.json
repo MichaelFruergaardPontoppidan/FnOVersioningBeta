@@ -9,9 +9,15 @@
       "InventSiteId": "5",
       "LocDirHintCode": "QMS",
       "LocDirName": "51 QMS",
-      "LocDirQuery": [
-        "SgEvJzMANQA2ADMANwAxADUAMAA1ADkANwAAABEAAegDGAAzADUANgAzADcAMQA1ADAANQA5\nADcAAADmSSkAAAAKTeoDAAAAAIQESQBuAHYAZQBuAHQAVABhAGIAbABlAAAAEQAB6AMcAEkA\nbgB2AGUAbgB0AFQAYQBiAGwAZQBfADEAAADiCRgASQBuAHYAZQBuAHQAVABhAGIAbABlAAAA\nCU3oAwAAAACSBAIAEQABAAD///////+EBFcASABTAEkAbgB2AGUAbgB0AFQAYQBiAGwAZQAA\nABEAAegDHgBXAEgAUwBJAG4AdgBlAG4AdABUAGEAYgBsAGUAAADiCR4AVwBIAFMASQBuAHYA\nZQBuAHQAVABhAGIAbABlAAAACU3pAwAA2RkA3xkBAACSBAIAEQABAAD//////////48E//8A\nAAAAAAAA//+bBP//mgT//wAAAAAAAAH/////AJAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAA"
-      ],
+      "LocDirQuery": {
+        "table": "InventTable",
+        "links": [],
+        "joins": [
+          {
+            "table": "WHSInventTable"
+          }
+        ]
+      },
       "LocSeqNum": 1,
       "MultiSKU": 0,
       "WorkTransType": 7,

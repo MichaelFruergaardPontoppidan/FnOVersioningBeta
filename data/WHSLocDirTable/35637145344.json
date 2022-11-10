@@ -9,9 +9,30 @@
       "InventSiteId": "6",
       "LocDirHintCode": "",
       "LocDirName": "61 TO Receipt",
-      "LocDirQuery": [
-        "SgEvJzMANQA2ADMANwAxADQANQAzADQANAAAABEAAegDGAAzADUANgAzADcAMQA0ADUAMwA0\nADQAAADNyUAAVwBBAFgAOQAAAOZJSgAAAApN7QMAAAAAhARJAG4AdgBlAG4AdABUAHIAYQBu\nAHMAZgBlAHIAVABhAGIAbABlAAAAEQAB6AMoAEkAbgB2AGUAbgB0AFQAcgBhAG4AcwBmAGUA\ncgBUAGEAYgBsAGUAAADiCSgASQBuAHYAZQBuAHQAVAByAGEAbgBzAGYAZQByAFQAYQBiAGwA\nZQAAAAlN6AMAAAAAkgQCABEAAQAA////////hARJAG4AdgBlAG4AdABUAHIAYQBuAHMAZgBl\nAHIATABpAG4AZQAAABEAAegDJgBJAG4AdgBlAG4AdABUAHIAYQBuAHMAZgBlAHIATABpAG4A\nZQAAAOIJJgBJAG4AdgBlAG4AdABUAHIAYQBuAHMAZgBlAHIATABpAG4AZQAAAAlN6QMAANkZ\nANEZAt8ZAQAAkgQCABEAAQAA/////4YESQBuAHYAZQBuAHQAVAByAGEAbgBzAEkAZAAAABEA\nAegDHABJAG4AdgBlAG4AdABUAHIAYQBuAHMASQBkAAAA4gkmAEkAbgB2AGUAbgB0AFQAcgBh\nAG4AcwBmAGUAcgBMAGkAbgBlAAAA4wkcAEkAbgB2AGUAbgB0AFQAcgBhAG4AcwBJAGQAAADE\nGQIAAAAAAAH//4QESQBuAHYAZQBuAHQAVABhAGIAbABlAAAAEQAB6AMYAEkAbgB2AGUAbgB0\nAFQAYQBiAGwAZQAAAOIJGABJAG4AdgBlAG4AdABUAGEAYgBsAGUAAAAJTeoDAADZGQDRGQLf\nGQEAAJIEAgARAAEAAP///////4QEVwBIAFMASQBuAHYAZQBuAHQAVABhAGIAbABlAAAAEQAB\n6AMeAFcASABTAEkAbgB2AGUAbgB0AFQAYQBiAGwAZQAAAOIJHgBXAEgAUwBJAG4AdgBlAG4A\ndABUAGEAYgBsAGUAAAAJTewDAADZGQDRGQLfGQEAAJIEAgARAAEAAP//////////jwT//wAA\nAAAAAAD//48E//8AAAAAAAAA//+PBP//AAAAAAAAAP//mwT//5oE//8AAAAAAAAB/////wCQ\nBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
-      ],
+      "LocDirQuery": {
+        "table": "InventTransferTable",
+        "links": [],
+        "joins": [
+          {
+            "table": "InventTransferLine",
+            "ranges": [
+              {
+                "field": "InventTransId"
+              }
+            ],
+            "joins": [
+              {
+                "table": "InventTable",
+                "joins": [
+                  {
+                    "table": "WHSInventTable"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
       "LocSeqNum": 2,
       "MultiSKU": 0,
       "WorkTransType": 6,

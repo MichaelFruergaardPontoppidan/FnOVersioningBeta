@@ -9,9 +9,30 @@
       "InventSiteId": "6",
       "LocDirHintCode": "",
       "LocDirName": "61 SO Pick order",
-      "LocDirQuery": [
-        "SgEvJzMANQA2ADMANwAxADQANQAzADMANAAAABEAAegDGAAzADUANgAzADcAMQA0ADUAMwAz\nADQAAADNCRQAQABTAFkAUwA1ADQANAA0ADEAAADmSasAAAAKTQIEAAAAAIQEUwBhAGwAZQBz\nAFQAYQBiAGwAZQAAABEAAegDFgBTAGEAbABlAHMAVABhAGIAbABlAAAA4gkWAFMAYQBsAGUA\ncwBUAGEAYgBsAGUAAAAJTf0DAAAAAJIEAgARAAEAAP///////4QEUwBhAGwAZQBzAEwAaQBu\nAGUAAAARAAHoAxQAUwBhAGwAZQBzAEwAaQBuAGUAAADiCRQAUwBhAGwAZQBzAEwAaQBuAGUA\nAAAJTf4DAADZGQDRGQLfGQEAAJIEAgARAAEAAP////+GBEkAbgB2AGUAbgB0AFQAcgBhAG4A\ncwBJAGQAAAARAAHoAxwASQBuAHYAZQBuAHQAVAByAGEAbgBzAEkAZAAAAOIJFABTAGEAbABl\nAHMATABpAG4AZQAAANYNFABTAGEAbABlAHMATABpAG4AZQAAAOMJHABJAG4AdgBlAG4AdABU\nAHIAYQBuAHMASQBkAAAAxBkCAAAAAAAB//+EBEkAbgB2AGUAbgB0AFQAYQBiAGwAZQAAABEA\nAegDGABJAG4AdgBlAG4AdABUAGEAYgBsAGUAAADiCRgASQBuAHYAZQBuAHQAVABhAGIAbABl\nAAAACU3/AwAA2RkA0RkC3xkBAACSBAIAEQABAAD///////+EBFcASABTAEkAbgB2AGUAbgB0\nAFQAYQBiAGwAZQAAABEAAegDHgBXAEgAUwBJAG4AdgBlAG4AdABUAGEAYgBsAGUAAADiCR4A\nVwBIAFMASQBuAHYAZQBuAHQAVABhAGIAbABlAAAACU0BBAAA2RkA0RkC3xkBAACSBAIAEQAB\nAAD//////////48E//8AAAAAAAAA//+PBP//AAAAAAAAAP//jwT//wAAAAAAAAD//5sE//+a\nBP//AVMAYQBsAGUAcwBUAGEAYgBsAGUAAABTAGEAbABlAHMATwByAGkAZwBpAG4ASQBkAAAA\nIQAiAEkATgBFAFQAIgAAAP0DAAAAAAAAAAEAAAAAAAAB/////wCQBQAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAA=="
-      ],
+      "LocDirQuery": {
+        "table": "SalesTable",
+        "links": [],
+        "joins": [
+          {
+            "table": "SalesLine",
+            "ranges": [
+              {
+                "field": "InventTransId"
+              }
+            ],
+            "joins": [
+              {
+                "table": "InventTable",
+                "joins": [
+                  {
+                    "table": "WHSInventTable"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
       "LocSeqNum": 12,
       "MultiSKU": 0,
       "WorkTransType": 2,

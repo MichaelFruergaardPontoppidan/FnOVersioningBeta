@@ -9,9 +9,25 @@
       "InventSiteId": "5",
       "LocDirHintCode": "",
       "LocDirName": "51 Raw Materials-Batch",
-      "LocDirQuery": [
-        "SgEvJzYAOAA3ADEAOQA0ADcANgA4ADAANwAAABEAAegDGAA2ADgANwAxADkANAA3ADYAOAAw\nADcAAADNCRAAQABXAEEAWAA0ADgAOAAAAOZJBQAAAApN6wMAAIYrAACMKwAAiCsAAIsrAAB+\nRQ8AAAAAAIQEUAByAG8AZABCAE8ATQAAABEAAegDEABQAHIAbwBkAEIATwBNAAAA4gkQAFAA\ncgBvAGQAQgBPAE0AAAAJTegDAAAAAJIEAgARAAEAAP////+GBEkAbgB2AGUAbgB0AFQAcgBh\nAG4AcwBJAGQAAAARAAHoAxwASQBuAHYAZQBuAHQAVAByAGEAbgBzAEkAZAAAAOIJEABQAHIA\nbwBkAEIATwBNAAAA4wkcAEkAbgB2AGUAbgB0AFQAcgBhAG4AcwBJAGQAAADEGQIAAAAAAAH/\n/4QESQBuAHYAZQBuAHQAVABhAGIAbABlAAAAEQAB6AMYAEkAbgB2AGUAbgB0AFQAYQBiAGwA\nZQAAAOIJGABJAG4AdgBlAG4AdABUAGEAYgBsAGUAAAAJTekDAADZGQDRGQLfGQEAAJIEAgAR\nAAEAAP///////4QEVwBIAFMASQBuAHYAZQBuAHQAVABhAGIAbABlAAAAEQAB6AMeAFcASABT\nAEkAbgB2AGUAbgB0AFQAYQBiAGwAZQAAAOIJHgBXAEgAUwBJAG4AdgBlAG4AdABUAGEAYgBs\nAGUAAAAJTeoDAADZGQDRGQLfGQEAAJIEAgARAAEAAP//////////jwT//wAAAAAAAAD//48E\n//8AAAAAAAAA//+bBP//mgT//wAAAAAAAAH/////AJAFAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAA"
-      ],
+      "LocDirQuery": {
+        "table": "ProdBOM",
+        "links": [],
+        "ranges": [
+          {
+            "field": "InventTransId"
+          }
+        ],
+        "joins": [
+          {
+            "table": "InventTable",
+            "joins": [
+              {
+                "table": "WHSInventTable"
+              }
+            ]
+          }
+        ]
+      },
       "LocSeqNum": 1,
       "MultiSKU": 0,
       "WorkTransType": 3,

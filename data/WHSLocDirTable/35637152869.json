@@ -9,9 +9,30 @@
       "InventSiteId": "5",
       "LocDirHintCode": "",
       "LocDirName": "RMA - Warehouse 51",
-      "LocDirQuery": [
-        "SgEvJzMANQA2ADMANwAxADUAMgA4ADYAOQAAABEAAegDGAAzADUANgAzADcAMQA1ADIAOAA2\nADkAAADNCRQAQABTAFkAUwA1ADQANAA0ADEAAADmSQMAAAAKTewDAACGKwAAjCsAAIgrAACL\nKwAAfkUPAAAAAACEBFMAYQBsAGUAcwBUAGEAYgBsAGUAAAARAAHoAxYAUwBhAGwAZQBzAFQA\nYQBiAGwAZQAAAOIJFgBTAGEAbABlAHMAVABhAGIAbABlAAAACU3oAwAAAACSBAIAEQABAAD/\n//////+EBFMAYQBsAGUAcwBMAGkAbgBlAAAAEQAB6AMUAFMAYQBsAGUAcwBMAGkAbgBlAAAA\n4gkUAFMAYQBsAGUAcwBMAGkAbgBlAAAACU3pAwAA2RkA0RkC3xkBAACSBAIAEQABAAD/////\nhgRJAG4AdgBlAG4AdABUAHIAYQBuAHMASQBkAAAAEQAB6AMcAEkAbgB2AGUAbgB0AFQAcgBh\nAG4AcwBJAGQAAADiCRQAUwBhAGwAZQBzAEwAaQBuAGUAAADjCRwASQBuAHYAZQBuAHQAVABy\nAGEAbgBzAEkAZAAAAMQZAgAAAAAAAf//hARJAG4AdgBlAG4AdABUAGEAYgBsAGUAAAARAAHo\nAxgASQBuAHYAZQBuAHQAVABhAGIAbABlAAAA4gkYAEkAbgB2AGUAbgB0AFQAYQBiAGwAZQAA\nAAlN6gMAANkZANEZAt8ZAQAAkgQCABEAAQAA////////hARXAEgAUwBJAG4AdgBlAG4AdABU\nAGEAYgBsAGUAAAARAAHoAx4AVwBIAFMASQBuAHYAZQBuAHQAVABhAGIAbABlAAAA4gkeAFcA\nSABTAEkAbgB2AGUAbgB0AFQAYQBiAGwAZQAAAAlN6wMAANkZANEZAt8ZAQAAkgQCABEAAQAA\n//////////+PBP//AAAAAAAAAP//jwT//wAAAAAAAAD//48E//8AAAAAAAAA//+bBP//mgT/\n/wAAAAAAAAH/////AJAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-      ],
+      "LocDirQuery": {
+        "table": "SalesTable",
+        "links": [],
+        "joins": [
+          {
+            "table": "SalesLine",
+            "ranges": [
+              {
+                "field": "InventTransId"
+              }
+            ],
+            "joins": [
+              {
+                "table": "InventTable",
+                "joins": [
+                  {
+                    "table": "WHSInventTable"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
       "LocSeqNum": 3,
       "MultiSKU": 0,
       "WorkTransType": 12,

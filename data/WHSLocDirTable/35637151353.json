@@ -9,9 +9,38 @@
       "InventSiteId": "5",
       "LocDirHintCode": "",
       "LocDirName": "Putaway Kanban",
-      "LocDirQuery": [
-        "SgEvJzMANQA2ADMANwAxADUAMQAzADUAMwAAABEAAegDGAAzADUANgAzADcAMQA1ADEAMwA1\nADMAAADmSTwAAAAKTewDAAAAAIQESwBhAG4AYgBhAG4ASgBvAGIAAAARAAHoAxQASwBhAG4A\nYgBhAG4ASgBvAGIAAADiCRQASwBhAG4AYgBhAG4ASgBvAGIAAAAJTegDAADZGQAAAJIEAgAR\nAAEAAP////+GBEkAbgB2AGUAbgB0AFQAcgBhAG4AcwBJAGQAAAARAAHoAxwASQBuAHYAZQBu\nAHQAVAByAGEAbgBzAEkAZAAAAOIJFABLAGEAbgBiAGEAbgBKAG8AYgAAAOMJHABJAG4AdgBl\nAG4AdABUAHIAYQBuAHMASQBkAAAAxBkCAAAAAAAB//+EBEsAYQBuAGIAYQBuAAAAEQAB6ONL\nAGEAbgBiAGEAbgAAAOLpSwBhAG4AYgBhAG4AAAAJTekDAADZGQDRGQIAAJIEAgARAAEAAP//\n/////4QESQBuAHYAZQBuAHQAVABhAGIAbABlAAAAEQAB6AMYAEkAbgB2AGUAbgB0AFQAYQBi\nAGwAZQAAAOIJGABJAG4AdgBlAG4AdABUAGEAYgBsAGUAAAAJTeoDAADZGQDRGQLfGQEAAJIE\nAgARAAEAAP///////4QEVwBIAFMASQBuAHYAZQBuAHQAVABhAGIAbABlAAAAEQAB6AMeAFcA\nSABTAEkAbgB2AGUAbgB0AFQAYQBiAGwAZQAAAOIJHgBXAEgAUwBJAG4AdgBlAG4AdABUAGEA\nYgBsAGUAAAAJTesDAADZGQDRGQLfGQEAAJIEAgARAAEAAP//////////jwT//wAAAAAAAAD/\n/48E//8AAAAAAAAA//+PBJAESwBhAG4AYgBhAG4ASgBvAGIAAABLAGEAbgBiAGEAbgAAAG4A\ndQBsAGwAAABLAGEAbgBiAGEAbgBKAG8AYgAAAEsAYQBuAGIAYQBuAAAAUgBlAGMASQBkAAAA\nAAAAAAAA//8AAAAAAAAA//+bBP//mgT//wAAAAAAAAH/////AJAFAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAA"
-      ],
+      "LocDirQuery": {
+        "table": "KanbanJob",
+        "links": [],
+        "ranges": [
+          {
+            "field": "InventTransId"
+          }
+        ],
+        "joins": [
+          {
+            "table": "Kanban",
+            "links": [
+              {
+                "field": "Kanban",
+                "relatedField": "RecId",
+                "table": "KanbanJob",
+                "relatedTable": "Kanban"
+              }
+            ],
+            "joins": [
+              {
+                "table": "InventTable",
+                "joins": [
+                  {
+                    "table": "WHSInventTable"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
       "LocSeqNum": 1,
       "MultiSKU": 0,
       "WorkTransType": 14,

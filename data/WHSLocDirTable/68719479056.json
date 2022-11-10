@@ -9,9 +9,39 @@
       "InventSiteId": "5",
       "LocDirHintCode": "",
       "LocDirName": "51 Kanban picking",
-      "LocDirQuery": [
-        "SgEvJzYAOAA3ADEAOQA0ADcAOQAwADUANgAAABEAAegDGAA2ADgANwAxADkANAA3ADkAMAA1\nADYAAADNCRIAQABXAEEAWAA0ADcANgA1AAAA5kkGAAAACk3rAwAAhisAAIwrAACIKwAAiysA\nAH5FDwAAAAAAhARLAGEAbgBiAGEAbgBKAG8AYgBQAGkAYwBrAGkAbgBnAEwAaQBzAHQAQQBs\nAGwAAAARAAHoAzAASwBhAG4AYgBhAG4ASgBvAGIAUABpAGMAawBpAG4AZwBMAGkAcwB0AEEA\nbABsAAAA4gkwAEsAYQBuAGIAYQBuAEoAbwBiAFAAaQBjAGsAaQBuAGcATABpAHMAdABBAGwA\nbAAAAAlN6AMAAAAAkgQCABEAAQAA/////4YESQBuAHYAZQBuAHQAVAByAGEAbgBzAEkAZAAA\nABEAAegDHABJAG4AdgBlAG4AdABUAHIAYQBuAHMASQBkAAAA4gkwAEsAYQBuAGIAYQBuAEoA\nbwBiAFAAaQBjAGsAaQBuAGcATABpAHMAdABBAGwAbAAAAOMJHABJAG4AdgBlAG4AdABUAHIA\nYQBuAHMASQBkAAAAxBkCAAAAAAAB//+EBEkAbgB2AGUAbgB0AFQAYQBiAGwAZQAAABEAAegD\nGABJAG4AdgBlAG4AdABUAGEAYgBsAGUAAADiCRgASQBuAHYAZQBuAHQAVABhAGIAbABlAAAA\nCU3pAwAA2RkA0RkCAACSBAIAEQABAAD///////+EBFcASABTAEkAbgB2AGUAbgB0AFQAYQBi\nAGwAZQAAABEAAegDHgBXAEgAUwBJAG4AdgBlAG4AdABUAGEAYgBsAGUAAADiCR4AVwBIAFMA\nSQBuAHYAZQBuAHQAVABhAGIAbABlAAAACU3qAwAA2RkA0RkC3xkBAACSBAIAEQABAAD/////\n/////48E//8AAAAAAAAA//+PBJAESwBhAG4AYgBhAG4ASgBvAGIAUABpAGMAawBpAG4AZwBM\nAGkAcwB0AEEAbABsAAAASQBuAHYAZQBuAHQAVABhAGIAbABlAAAAbgB1AGwAbAAAAEsAYQBu\nAGIAYQBuAEoAbwBiAFAAaQBjAGsAaQBuAGcATABpAHMAdABBAGwAbAAAAEkAdABlAG0ASQBk\nAAAASQB0AGUAbQBJAGQAAAAAAAAASQBuAHYAZQBuAHQAVABhAGIAbABlAAAAkARLAGEAbgBi\nAGEAbgBKAG8AYgBQAGkAYwBrAGkAbgBnAEwAaQBzAHQAQQBsAGwAAABJAG4AdgBlAG4AdABU\nAGEAYgBsAGUAAABuAHUAbABsAAAASwBhAG4AYgBhAG4ASgBvAGIAUABpAGMAawBpAG4AZwBM\nAGkAcwB0AEEAbABsAAAASQB0AGUAbQBEAGEAdABhAEEAcgBlAGEASQBkAAAAZABhAHQAYQBB\nAHIAZQBhAEkAZAAAAAAAAABJAG4AdgBlAG4AdABUAGEAYgBsAGUAAAD//wAAAAAAAAD//5sE\n//+aBP//AAAAAAAAAf////8AkAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
-      ],
+      "LocDirQuery": {
+        "table": "KanbanJobPickingListAll",
+        "links": [],
+        "ranges": [
+          {
+            "field": "InventTransId"
+          }
+        ],
+        "joins": [
+          {
+            "table": "InventTable",
+            "links": [
+              {
+                "field": "ItemId",
+                "relatedField": "ItemId",
+                "table": "KanbanJobPickingListAll",
+                "relatedTable": "InventTable"
+              },
+              {
+                "field": "ItemDataAreaId",
+                "relatedField": "dataAreaId",
+                "table": "KanbanJobPickingListAll",
+                "relatedTable": "InventTable"
+              }
+            ],
+            "joins": [
+              {
+                "table": "WHSInventTable"
+              }
+            ]
+          }
+        ]
+      },
       "LocSeqNum": 1,
       "MultiSKU": 0,
       "WorkTransType": 13,

@@ -9,9 +9,30 @@
       "InventSiteId": "2",
       "LocDirHintCode": "",
       "LocDirName": "24 SO Pick",
-      "LocDirQuery": [
-        "SgEvJzUANgAzADcAMQA0ADQANQA3ADgAAAARAAHoAxYANQA2ADMANwAxADQANAA1ADcAOAAA\nAM0JFABAAFMAWQBTADUANAA0ADQAMQAAAOZJqgAAAApNAgQAAIYrAACMKwAAiCsAAIsrAAAA\nAIQEUwBhAGwAZQBzAFQAYQBiAGwAZQAAABEAAegDFgBTAGEAbABlAHMAVABhAGIAbABlAAAA\n4gkWAFMAYQBsAGUAcwBUAGEAYgBsAGUAAAAJTf0DAAAAAJIEAgARAAEAAP///////4QEUwBh\nAGwAZQBzAEwAaQBuAGUAAAARAAHoAxQAUwBhAGwAZQBzAEwAaQBuAGUAAADiCRQAUwBhAGwA\nZQBzAEwAaQBuAGUAAAAJTf4DAADfGQEAAJIEAgARAAEAAP////+GBEkAbgB2AGUAbgB0AFQA\ncgBhAG4AcwBJAGQAAAARAAHoAxwASQBuAHYAZQBuAHQAVAByAGEAbgBzAEkAZAAAAOIJFABT\nAGEAbABlAHMATABpAG4AZQAAANYNFABTAGEAbABlAHMATABpAG4AZQAAAOMJHABJAG4AdgBl\nAG4AdABUAHIAYQBuAHMASQBkAAAAxBkCAAAAAAAB//+EBEkAbgB2AGUAbgB0AFQAYQBiAGwA\nZQAAABEAAegDGABJAG4AdgBlAG4AdABUAGEAYgBsAGUAAADiCRgASQBuAHYAZQBuAHQAVABh\nAGIAbABlAAAACU3/AwAA3xkBAACSBAIAEQABAAD///////+EBFcASABTAEkAbgB2AGUAbgB0\nAFQAYQBiAGwAZQAAABEAAegDHgBXAEgAUwBJAG4AdgBlAG4AdABUAGEAYgBsAGUAAADiCR4A\nVwBIAFMASQBuAHYAZQBuAHQAVABhAGIAbABlAAAACU0BBAAA3xkBAACSBAIAEQABAAD/////\n/////48E//8AAAAAAAAA//+PBP//AAAAAAAAAP//jwT//wAAAAAAAAD//5sE//+aBP//AAAA\nAAAAAf////8AkAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
-      ],
+      "LocDirQuery": {
+        "table": "SalesTable",
+        "links": [],
+        "joins": [
+          {
+            "table": "SalesLine",
+            "ranges": [
+              {
+                "field": "InventTransId"
+              }
+            ],
+            "joins": [
+              {
+                "table": "InventTable",
+                "joins": [
+                  {
+                    "table": "WHSInventTable"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
       "LocSeqNum": 1,
       "MultiSKU": 0,
       "WorkTransType": 2,

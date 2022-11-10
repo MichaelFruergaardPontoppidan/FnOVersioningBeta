@@ -9,9 +9,25 @@
       "InventSiteId": "5",
       "LocDirHintCode": "",
       "LocDirName": "51 Finished goods",
-      "LocDirQuery": [
-        "SgEvJzMANQA2ADMANwAxADQANQAzADQAMAAAABEAAegDGAAzADUANgAzADcAMQA0ADUAMwA0\nADAAAADNCRIAQABXAEEAWAA1ADcAMAA3AAAA5kluAAAACk33AwAAAACEBFAAcgBvAGQAVABh\nAGIAbABlAAAAEQAB6AMUAFAAcgBvAGQAVABhAGIAbABlAAAA4gkUAFAAcgBvAGQAVABhAGIA\nbABlAAAACU3yAwAAAACSBAIAEQABAAD/////hgRJAG4AdgBlAG4AdABUAHIAYQBuAHMASQBk\nAAAAEQAB6AMcAEkAbgB2AGUAbgB0AFQAcgBhAG4AcwBJAGQAAADiCRQAUAByAG8AZABUAGEA\nYgBsAGUAAADjCRwASQBuAHYAZQBuAHQAVAByAGEAbgBzAEkAZAAAAMQZAgAAAAAAAf//hARJ\nAG4AdgBlAG4AdABUAGEAYgBsAGUAAAARAAHoAxgASQBuAHYAZQBuAHQAVABhAGIAbABlAAAA\n4gkYAEkAbgB2AGUAbgB0AFQAYQBiAGwAZQAAAAlN8wMAANkZANEZAt8ZAQAAkgQCABEAAQAA\n////////hARXAEgAUwBJAG4AdgBlAG4AdABUAGEAYgBsAGUAAAARAAHoAyIAVwBIAFMASQBu\nAHYAZQBuAHQAVABhAGIAbABlAF8AMQAAAOIJHgBXAEgAUwBJAG4AdgBlAG4AdABUAGEAYgBs\nAGUAAAAJTfUDAADZGQDfGQEAAJIEAgARAAEAAP//////////jwT//wAAAAAAAAD//48E//8A\nAAAAAAAA//+bBP//mgT//wAAAAAAAAH/////AJAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAA"
-      ],
+      "LocDirQuery": {
+        "table": "ProdTable",
+        "links": [],
+        "ranges": [
+          {
+            "field": "InventTransId"
+          }
+        ],
+        "joins": [
+          {
+            "table": "InventTable",
+            "joins": [
+              {
+                "table": "WHSInventTable"
+              }
+            ]
+          }
+        ]
+      },
       "LocSeqNum": 1,
       "MultiSKU": 0,
       "WorkTransType": 4,

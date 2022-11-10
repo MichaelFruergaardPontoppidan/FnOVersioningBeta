@@ -9,9 +9,25 @@
       "InventSiteId": "5",
       "LocDirHintCode": "",
       "LocDirName": "51 Raw matereials",
-      "LocDirQuery": [
-        "SgEvJzMANQA2ADMANwAxADQANQAzADMAOAAAABEAAegDGAAzADUANgAzADcAMQA0ADUAMwAz\nADgAAADNCRAAQABXAEEAWAA0ADgAOAAAAOZJWgAAAApN9QMAAAAAhARQAHIAbwBkAEIATwBN\nAAAAEQAB6AMQAFAAcgBvAGQAQgBPAE0AAADiCRAAUAByAG8AZABCAE8ATQAAAAlN8QMAAAAA\nkgQCABEAAQAA/////4YESQBuAHYAZQBuAHQAVAByAGEAbgBzAEkAZAAAABEAAegDHABJAG4A\ndgBlAG4AdABUAHIAYQBuAHMASQBkAAAA4gkQAFAAcgBvAGQAQgBPAE0AAADjCRwASQBuAHYA\nZQBuAHQAVAByAGEAbgBzAEkAZAAAAMQZAgAAAAAAAf//hARJAG4AdgBlAG4AdABUAGEAYgBs\nAGUAAAARAAHoAxgASQBuAHYAZQBuAHQAVABhAGIAbABlAAAA4gkYAEkAbgB2AGUAbgB0AFQA\nYQBiAGwAZQAAAAlN8gMAANkZANEZAt8ZAQAAkgQCABEAAQAA////////hARXAEgAUwBJAG4A\ndgBlAG4AdABUAGEAYgBsAGUAAAARAAHoAx4AVwBIAFMASQBuAHYAZQBuAHQAVABhAGIAbABl\nAAAA4gkeAFcASABTAEkAbgB2AGUAbgB0AFQAYQBiAGwAZQAAAAlN9AMAANkZANEZAt8ZAQAA\nkgQCABEAAQAA//////////+PBP//AAAAAAAAAP//jwT//wAAAAAAAAD//5sE//+aBP//AAAA\nAAAAAf////8AkAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
-      ],
+      "LocDirQuery": {
+        "table": "ProdBOM",
+        "links": [],
+        "ranges": [
+          {
+            "field": "InventTransId"
+          }
+        ],
+        "joins": [
+          {
+            "table": "InventTable",
+            "joins": [
+              {
+                "table": "WHSInventTable"
+              }
+            ]
+          }
+        ]
+      },
       "LocSeqNum": 2,
       "MultiSKU": 0,
       "WorkTransType": 3,

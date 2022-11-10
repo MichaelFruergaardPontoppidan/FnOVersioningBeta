@@ -7,9 +7,42 @@
       "AllowNegative": 0,
       "BatchEnabled": 1,
       "LocDirName": "FG",
-      "LocDirQuery": [
-        "SgEvJzMANQA2ADMANwAxADQAOQAwADkANAB8ADMANQA2ADMANwAxADQAOQAwADkANQAAABEA\nAegDMAAzADUANgAzADcAMQA0ADkAMAA5ADQAfAAzADUANgAzADcAMQA0ADkAMAA5ADUAAADm\nSaAAAAAKTfcDAAAAAIQEVwBNAFMATABvAGMAYQB0AGkAbwBuAAAAEQAB6AMYAFcATQBTAEwA\nbwBjAGEAdABpAG8AbgAAAOIJGABXAE0AUwBMAG8AYwBhAHQAaQBvAG4AAAAJTegDAAAAAJIE\nAgARAAEAAP////+GBGkAbgB2AGUAbgB0AEwAbwBjAGEAdABpAG8AbgBJAGQAAAARAAHoAyIA\naQBuAHYAZQBuAHQATABvAGMAYQB0AGkAbwBuAEkAZAAAAOIJGABXAE0AUwBMAG8AYwBhAHQA\naQBvAG4AAADWDRgAVwBNAFMATABvAGMAYQB0AGkAbwBuAAAA4wkiAGkAbgB2AGUAbgB0AEwA\nbwBjAGEAdABpAG8AbgBJAGQAAADaaTMANAAAAMQZAQAAAAAAAf//hARJAG4AdgBlAG4AdABE\nAGkAbQAAABEAAegDFABJAG4AdgBlAG4AdABEAGkAbQAAAOIJFABJAG4AdgBlAG4AdABEAGkA\nbQAAAAlN6QMAANkZAN8ZAQAAkgQCABEAAQAA////////hARJAG4AdgBlAG4AdABTAHUAbQAA\nABEAAegDFABJAG4AdgBlAG4AdABTAHUAbQAAAOIJFABJAG4AdgBlAG4AdABTAHUAbQAAAAlN\n6gMAANkZAN8ZAQAAkgQCABEAAQAA/////4YEUABoAHkAcwBpAGMAYQBsAEkAbgB2AGUAbgB0\nAAAAEQAB6AMeAFAAaAB5AHMAaQBjAGEAbABJAG4AdgBlAG4AdAAAAOIJFABJAG4AdgBlAG4A\ndABTAHUAbQAAANYNFABJAG4AdgBlAG4AdABTAHUAbQAAAOMJHgBQAGgAeQBzAGkAYwBhAGwA\nSQBuAHYAZQBuAHQAAADaaT4AMAAAAMQZAQAAAAAAAf//hARJAG4AdgBlAG4AdABEAGkAbQAA\nABEAAegDFgBJAG4AdgBlAG4AdABEAGkAbQAyAAAA4gkUAEkAbgB2AGUAbgB0AEQAaQBtAAAA\nCU31AwAA2RkA3xkBAACSBAIAEQABAAD///////+EBEkAbgB2AGUAbgB0AEIAYQB0AGMAaAAA\nABEAAegDGABJAG4AdgBlAG4AdABCAGEAdABjAGgAAADiCRgASQBuAHYAZQBuAHQAQgBhAHQA\nYwBoAAAACU32AwAA2RkA3xkBAACSBAIAEQABAAD//////////48E//8AAAAAAAAA//+PBP//\nAAAAAAAAAP//jwT//wAAAAAAAAD//48E//8AAAAAAAAA//+bBP//mgT//wFXAE0AUwBMAG8A\nYwBhAHQAaQBvAG4AAABMAG8AYwBQAHIAbwBmAGkAbABlAEkAZAAAAEYATABPAE8AUgAAAOgD\nAAAAAAAAAAEAAAAAAAAB/////wCQBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
-      ],
+      "LocDirQuery": {
+        "table": "WMSLocation",
+        "links": [],
+        "ranges": [
+          {
+            "field": "inventLocationId",
+            "value": "34"
+          }
+        ],
+        "joins": [
+          {
+            "table": "InventDim",
+            "joins": [
+              {
+                "table": "InventSum",
+                "ranges": [
+                  {
+                    "field": "PhysicalInvent",
+                    "value": ">0"
+                  }
+                ],
+                "joins": [
+                  {
+                    "table": "InventDim",
+                    "joins": [
+                      {
+                        "table": "InventBatch"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
       "LocDirStrategy": 0,
       "LocSeqNum": 1,
       "RefRecId": 35637149094,
